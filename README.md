@@ -1,11 +1,11 @@
 # BulbousRat
-Game engine using libgdx and the artemis entity component system
+Game engine using libgdx and the Artemis entity component system. Comparable to how Unity GameObjects use compoonents to define them.
 
 ## Significant current features:
 * Built on top of libGDX to handle graphics and basic game functions like i/o.
 * Uses Artemis ECS as the main architecture of the game
   * ECS used as an alternative to a heirarchical or more traditional oop approach to games. Increases encapsulation, better cache performance, quicker to add features, etc.
-  * Entities or GameObejcts are just an alocation of an ID
+  * Entities or GameObejcts are just a integer.
   * Components contain only data and are assigned to entities as needed, the functionality of the entity is defined by the components it possesses.
   * Systems define the functionality and are run on entities with a certain set of components that the system requires to run.
 * World and Enties are defined through json files and is intended to have a corresponding editor to make this easier.
