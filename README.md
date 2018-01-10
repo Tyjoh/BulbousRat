@@ -1,5 +1,5 @@
 # BulbousRat
-Game engine using libgdx and the Artemis entity component system. Comparable to how Unity GameObjects use compoonents to define them.
+Game engine using libgdx and the Artemis entity component system. Comparable to how Unity GameObjects use compoonents to define them. [Video Demo](https://youtu.be/3pUCTBitfiU)
 
 ## Significant current features:
 * Built on top of libGDX to handle graphics and basic game functions like i/o.
