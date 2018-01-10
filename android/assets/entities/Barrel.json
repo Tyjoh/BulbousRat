@@ -1,0 +1,126 @@
+{
+  "requiredComponents": [
+    "Transform"
+  ],
+  "prefabBuilder": {
+    "name": "DustyBarrel",
+    "components": [
+      {
+        "class": "Physics",
+        "bodyBuilderDependency": "BarrelPhysics"
+      },
+      {
+        "class": "Transform",
+        "position": {
+          "x": 3,
+          "y": 4.5
+        },
+        "z": 0,
+        "angle": 0
+      },
+      {
+        "class": "Health",
+        "health": 100,
+        "maxHealth": 100
+      },
+      {
+        "class": "GroupHeal",
+        "healRate": 10,
+        "numToHeal": 2,
+        "healGroupId": 69
+      },
+      {
+        "class": "ProximitySensor",
+        "radius": 1.25
+      }
+    ],
+
+    "componentDependencies": [
+      "BarrelGfx"
+    ]
+
+  },
+
+  "dependencies": [
+    {
+      "dependencyName": "BarrelGfx",
+      "object": {
+        "class": "SpriteGraphics",
+        "spriteBuilderDependency": "BarrelSprite"
+      }
+    },
+
+
+    {
+      "dependencyName": "BarrelSprite",
+      "object":
+      {
+        "class": "SpriteData",
+        "name": null,
+        "width": 1,
+        "height": 1,
+        "origin": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "texture": "barrel.png",
+        "color": {
+          "r": 0.1,
+          "g": 1,
+          "b": 0.7,
+          "a": 1
+        }
+      }
+    },
+
+
+    {
+      "dependencyName": "BarrelPhysics",
+      "object":
+      {
+        "class": "BodyData",
+        "bodyDef": {
+          "type": "DynamicBody",
+          "position": {
+            "x": 6,
+            "y": 4.5
+          },
+          "angle": 0,
+          "linearVelocity": {
+            "x": 0,
+            "y": 0
+          },
+          "angularVelocity": 0,
+          "linearDamping": 2,
+          "angularDamping": 2,
+          "allowSleep": true,
+          "awake": true,
+          "fixedRotation": false,
+          "bullet": false,
+          "active": true,
+          "gravityScale": 1
+        },
+        "fixtures": [
+          {
+            "name": "CircleFixture",
+            "friction": 0.8,
+            "restitution": 0.05,
+            "density": 2,
+            "isSensor": false,
+            "shape": {
+              "vertices": [],
+              "shapeType": "Circle",
+              "radius": 0.5,
+              "position": {
+                "x": 0,
+                "y": 0
+              }
+            }
+          }
+        ]
+      }
+    }
+
+
+  ]
+}

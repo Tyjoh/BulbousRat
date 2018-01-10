@@ -1,0 +1,161 @@
+{
+  "groupName": "WigglerGroup",
+  "entities": [
+    {
+      "name": "RatHead",
+      "components": [
+        {
+          "class": "SpriteGraphics",
+          "spriteData": {
+            "name": null,
+            "width": 0.6,
+            "height": 0.6,
+            "origin": {
+              "x": 0.3,
+              "y": 0.3
+            },
+            "texture": "barrel.png",
+            "color": {
+              "r": 0.7,
+              "g": 0.7,
+              "b": 0.7,
+              "a": 1
+            }
+          }
+        },
+        {
+          "class": "Physics",
+          "bodyData": {
+            "bodyDef": {
+              "type": "DynamicBody",
+              "position": {
+                "x": 6,
+                "y": 4.5
+              },
+              "angle": 0,
+              "linearVelocity": {
+                "x": 0,
+                "y": 0
+              },
+              "linearDamping": 2,
+              "angularDamping": 2
+            },
+            "fixtures": [
+              {
+                "name": "CircleFixture",
+                "friction": 0.8,
+                "restitution": 0.05,
+                "density": 1.2,
+                "shape": {
+                  "shapeType": "Circle",
+                  "radius": 0.3,
+                  "position": {
+                    "x": 0,
+                    "y": 0
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "class": "Transform",
+          "position": {
+            "x": 4,
+            "y": 3
+          },
+          "z": 0,
+          "angle": 0
+        }
+      ]
+    },
+    {
+      "name": "RatBody",
+      "components": [
+        {
+          "class": "SpriteGraphics",
+          "spriteData": {
+            "width": 1,
+            "height": 1,
+            "origin": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "texture": "barrel.png",
+            "color": {
+              "r": 0.6,
+              "g": 0.6,
+              "b": 0.6,
+              "a": 1
+            }
+          }
+        },
+        {
+          "class": "Physics",
+          "bodyData": {
+            "bodyDef": {
+              "type": "DynamicBody",
+              "position": {
+                "x": 6,
+                "y": 4.5
+              },
+              "angle": 0,
+              "linearVelocity": {
+                "x": 0,
+                "y": 0
+              },
+              "linearDamping": 2,
+              "angularDamping": 2
+            },
+            "fixtures": [
+              {
+                "name": "CircleFixture",
+                "friction": 0.8,
+                "restitution": 0.05,
+                "density": 0.5,
+                "shape": {
+                  "vertices": [],
+                  "shapeType": "Circle",
+                  "radius": 0.5,
+                  "position": {
+                    "x": 0,
+                    "y": 0
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "class": "Transform",
+          "position": {
+            "x": 4,
+            "y": 3
+          }
+        }
+      ]
+    }
+  ],
+  "physicalJoints": [
+    {
+      "jointDef": {
+        "class": "RevoluteJointDef",
+        "type": "RevoluteJoint",
+        "collideConnected": false,
+        "localAnchorA": {
+          "x": 0,
+          "y": -0.25
+        },
+        "localAnchorB": {
+          "x": 0,
+          "y": 0.45
+        },
+        "enableLimit": true,
+        "upperAngle": 1.3,
+        "lowerAngle": -1.3
+      },
+      "entityA": 0,
+      "entityB": 1
+    }
+  ]
+}

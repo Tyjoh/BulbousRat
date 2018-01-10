@@ -1,0 +1,6776 @@
+{
+"entities": [
+	{
+		"dependencies": [],
+		"prefabName": "",
+		"name": null,
+		"components": [
+			{
+				"class": "Physics",
+				"bodyBuilderDependency": "",
+				"bodyData": {
+					"bodyDef": {
+						"type": "DynamicBody",
+						"position": {
+							"x": 6.633179,
+							"y": 9.691479
+						},
+						"angle": -9.972289,
+						"linearVelocity": {
+							"x": 0,
+							"y": 0
+						},
+						"angularVelocity": 0,
+						"linearDamping": 2,
+						"angularDamping": 2,
+						"allowSleep": true,
+						"awake": true,
+						"fixedRotation": false,
+						"bullet": false,
+						"active": true,
+						"gravityScale": 1
+					},
+					"fixtures": [
+						{
+							"name": "CircleFixture",
+							"friction": 0.8,
+							"restitution": 0.05,
+							"density": 1.2,
+							"isSensor": false,
+							"shape": {
+								"vertexDependency": "",
+								"vertices": null,
+								"shapeType": "Circle",
+								"radius": 0.3,
+								"position": {
+									"x": 0,
+									"y": 0
+								}
+							}
+						}
+					]
+				}
+			},
+			{
+				"class": "Transform",
+				"position": {
+					"x": 6.633179,
+					"y": 9.691479
+				},
+				"z": 0,
+				"angle": -9.972289
+			},
+			{
+				"class": "SpriteGraphics",
+				"spriteBuilderDependency": "",
+				"spriteData": {
+					"name": null,
+					"width": 0.6,
+					"height": 0.6,
+					"origin": {
+						"x": 0.3,
+						"y": 0.3
+					},
+					"texture": "barrel.png",
+					"color": {
+						"r": 0.7,
+						"g": 0.7,
+						"b": 0.7,
+						"a": 1
+					}
+				}
+			}
+		],
+		"componentDependencies": []
+	},
+	{
+		"dependencies": [],
+		"prefabName": "",
+		"name": null,
+		"components": [
+			{
+				"class": "Physics",
+				"bodyBuilderDependency": "",
+				"bodyData": {
+					"bodyDef": {
+						"type": "DynamicBody",
+						"position": {
+							"x": 4.919397,
+							"y": 6.1982465
+						},
+						"angle": 5.4782805,
+						"linearVelocity": {
+							"x": 0,
+							"y": 0
+						},
+						"angularVelocity": 0,
+						"linearDamping": 2,
+						"angularDamping": 2,
+						"allowSleep": true,
+						"awake": true,
+						"fixedRotation": false,
+						"bullet": false,
+						"active": true,
+						"gravityScale": 1
+					},
+					"fixtures": [
+						{
+							"name": "CircleFixture",
+							"friction": 0.8,
+							"restitution": 0.05,
+							"density": 0.5,
+							"isSensor": false,
+							"shape": {
+								"vertexDependency": "",
+								"vertices": [],
+								"shapeType": "Circle",
+								"radius": 0.5,
+								"position": {
+									"x": 0,
+									"y": 0
+								}
+							}
+						}
+					]
+				}
+			},
+			{
+				"class": "Transform",
+				"position": {
+					"x": 4.919397,
+					"y": 6.1982465
+				},
+				"z": 0,
+				"angle": 5.4782805
+			},
+			{
+				"class": "SpriteGraphics",
+				"spriteBuilderDependency": "",
+				"spriteData": {
+					"name": null,
+					"width": 1,
+					"height": 1,
+					"origin": {
+						"x": 0.5,
+						"y": 0.5
+					},
+					"texture": "barrel.png",
+					"color": {
+						"r": 0.6,
+						"g": 0.6,
+						"b": 0.6,
+						"a": 1
+					}
+				}
+			}
+		],
+		"componentDependencies": []
+	},
+	{
+		"dependencies": [],
+		"prefabName": "",
+		"name": null,
+		"components": [
+			{
+				"class": "Physics",
+				"bodyBuilderDependency": "",
+				"bodyData": {
+					"bodyDef": {
+						"type": "DynamicBody",
+						"position": {
+							"x": 8.989554,
+							"y": 5.1294055
+						},
+						"angle": 6.122101,
+						"linearVelocity": {
+							"x": 0,
+							"y": 0
+						},
+						"angularVelocity": 0,
+						"linearDamping": 2,
+						"angularDamping": 2,
+						"allowSleep": true,
+						"awake": true,
+						"fixedRotation": false,
+						"bullet": false,
+						"active": true,
+						"gravityScale": 1
+					},
+					"fixtures": [
+						{
+							"name": "CircleFixture",
+							"friction": 0.8,
+							"restitution": 0.05,
+							"density": 1.2,
+							"isSensor": false,
+							"shape": {
+								"vertexDependency": "",
+								"vertices": null,
+								"shapeType": "Circle",
+								"radius": 0.3,
+								"position": {
+									"x": 0,
+									"y": 0
+								}
+							}
+						}
+					]
+				}
+			},
+			{
+				"class": "Transform",
+				"position": {
+					"x": 8.989554,
+					"y": 5.1294055
+				},
+				"z": 0,
+				"angle": 6.122101
+			},
+			{
+				"class": "SpriteGraphics",
+				"spriteBuilderDependency": "",
+				"spriteData": {
+					"name": null,
+					"width": 0.6,
+					"height": 0.6,
+					"origin": {
+						"x": 0.3,
+						"y": 0.3
+					},
+					"texture": "barrel.png",
+					"color": {
+						"r": 0.7,
+						"g": 0.7,
+						"b": 0.7,
+						"a": 1
+					}
+				}
+			}
+		],
+		"componentDependencies": []
+	},
+	{
+		"dependencies": [],
+		"prefabName": "",
+		"name": null,
+		"components": [
+			{
+				"class": "Physics",
+				"bodyBuilderDependency": "",
+				"bodyData": {
+					"bodyDef": {
+						"type": "DynamicBody",
+						"position": {
+							"x": 11.209581,
+							"y": 4.0587482
+						},
+						"angle": 0.746325,
+						"linearVelocity": {
+							"x": 0,
+							"y": 0
+						},
+						"angularVelocity": 0,
+						"linearDamping": 2,
+						"angularDamping": 2,
+						"allowSleep": true,
+						"awake": true,
+						"fixedRotation": false,
+						"bullet": false,
+						"active": true,
+						"gravityScale": 1
+					},
+					"fixtures": [
+						{
+							"name": "CircleFixture",
+							"friction": 0.8,
+							"restitution": 0.05,
+							"density": 0.5,
+							"isSensor": false,
+							"shape": {
+								"vertexDependency": "",
+								"vertices": [],
+								"shapeType": "Circle",
+								"radius": 0.5,
+								"position": {
+									"x": 0,
+									"y": 0
+								}
+							}
+						}
+					]
+				}
+			},
+			{
+				"class": "Transform",
+				"position": {
+					"x": 11.209581,
+					"y": 4.0587482
+				},
+				"z": 0,
+				"angle": 0.746325
+			},
+			{
+				"class": "SpriteGraphics",
+				"spriteBuilderDependency": "",
+				"spriteData": {
+					"name": null,
+					"width": 1,
+					"height": 1,
+					"origin": {
+						"x": 0.5,
+						"y": 0.5
+					},
+					"texture": "barrel.png",
+					"color": {
+						"r": 0.6,
+						"g": 0.6,
+						"b": 0.6,
+						"a": 1
+					}
+				}
+			}
+		],
+		"componentDependencies": []
+	},
+	{
+		"dependencies": [],
+		"prefabName": "",
+		"name": null,
+		"components": [
+			{
+				"class": "Physics",
+				"bodyBuilderDependency": "",
+				"bodyData": {
+					"bodyDef": {
+						"type": "DynamicBody",
+						"position": {
+							"x": 12.673858,
+							"y": 4.1775
+						},
+						"angle": 5.235901,
+						"linearVelocity": {
+							"x": 0,
+							"y": 0
+						},
+						"angularVelocity": 0,
+						"linearDamping": 2,
+						"angularDamping": 2,
+						"allowSleep": true,
+						"awake": true,
+						"fixedRotation": false,
+						"bullet": false,
+						"active": true,
+						"gravityScale": 1
+					},
+					"fixtures": [
+						{
+							"name": "CircleFixture",
+							"friction": 0.8,
+							"restitution": 0.05,
+							"density": 1.2,
+							"isSensor": false,
+							"shape": {
+								"vertexDependency": "",
+								"vertices": null,
+								"shapeType": "Circle",
+								"radius": 0.3,
+								"position": {
+									"x": 0,
+									"y": 0
+								}
+							}
+						}
+					]
+				}
+			},
+			{
+				"class": "Transform",
+				"position": {
+					"x": 12.673858,
+					"y": 4.1775
+				},
+				"z": 0,
+				"angle": 5.235901
+			},
+			{
+				"class": "SpriteGraphics",
+				"spriteBuilderDependency": "",
+				"spriteData": {
+					"name": null,
+					"width": 0.6,
+					"height": 0.6,
+					"origin": {
+						"x": 0.3,
+						"y": 0.3
+					},
+					"texture": "barrel.png",
+					"color": {
+						"r": 0.7,
+						"g": 0.7,
+						"b": 0.7,
+						"a": 1
+					}
+				}
+			}
+		],
+		"componentDependencies": []
+	},
+	{
+		"dependencies": [],
+		"prefabName": "",
+		"name": null,
+		"components": [
+			{
+				"class": "Physics",
+				"bodyBuilderDependency": "",
+				"bodyData": {
+					"bodyDef": {
+						"type": "DynamicBody",
+						"position": {
+							"x": 11.095158,
+							"y": 5.293178
+						},
+						"angle": 6.058663,
+						"linearVelocity": {
+							"x": 0,
+							"y": 0
+						},
+						"angularVelocity": 0,
+						"linearDamping": 2,
+						"angularDamping": 2,
+						"allowSleep": true,
+						"awake": true,
+						"fixedRotation": false,
+						"bullet": false,
+						"active": true,
+						"gravityScale": 1
+					},
+					"fixtures": [
+						{
+							"name": "CircleFixture",
+							"friction": 0.8,
+							"restitution": 0.05,
+							"density": 0.5,
+							"isSensor": false,
+							"shape": {
+								"vertexDependency": "",
+								"vertices": [],
+								"shapeType": "Circle",
+								"radius": 0.5,
+								"position": {
+									"x": 0,
+									"y": 0
+								}
+							}
+						}
+					]
+				}
+			},
+			{
+				"class": "Transform",
+				"position": {
+					"x": 11.095158,
+					"y": 5.293178
+				},
+				"z": 0,
+				"angle": 6.058663
+			},
+			{
+				"class": "SpriteGraphics",
+				"spriteBuilderDependency": "",
+				"spriteData": {
+					"name": null,
+					"width": 1,
+					"height": 1,
+					"origin": {
+						"x": 0.5,
+						"y": 0.5
+					},
+					"texture": "barrel.png",
+					"color": {
+						"r": 0.6,
+						"g": 0.6,
+						"b": 0.6,
+						"a": 1
+					}
+				}
+			}
+		],
+		"componentDependencies": []
+	},
+	{
+		"dependencies": [],
+		"prefabName": "",
+		"name": null,
+		"components": [
+			{
+				"class": "Physics",
+				"bodyBuilderDependency": "",
+				"bodyData": {
+					"bodyDef": {
+						"type": "DynamicBody",
+						"position": {
+							"x": 10.901556,
+							"y": 7.5915456
+						},
+						"angle": 10.603484,
+						"linearVelocity": {
+							"x": 0,
+							"y": 0
+						},
+						"angularVelocity": 0,
+						"linearDamping": 2,
+						"angularDamping": 2,
+						"allowSleep": true,
+						"awake": true,
+						"fixedRotation": false,
+						"bullet": false,
+						"active": true,
+						"gravityScale": 1
+					},
+					"fixtures": [
+						{
+							"name": "CircleFixture",
+							"friction": 0.8,
+							"restitution": 0.05,
+							"density": 1.2,
+							"isSensor": false,
+							"shape": {
+								"vertexDependency": "",
+								"vertices": null,
+								"shapeType": "Circle",
+								"radius": 0.3,
+								"position": {
+									"x": 0,
+									"y": 0
+								}
+							}
+						}
+					]
+				}
+			},
+			{
+				"class": "Transform",
+				"position": {
+					"x": 10.901556,
+					"y": 7.5915456
+				},
+				"z": 0,
+				"angle": 10.603484
+			},
+			{
+				"class": "SpriteGraphics",
+				"spriteBuilderDependency": "",
+				"spriteData": {
+					"name": null,
+					"width": 0.6,
+					"height": 0.6,
+					"origin": {
+						"x": 0.3,
+						"y": 0.3
+					},
+					"texture": "barrel.png",
+					"color": {
+						"r": 0.7,
+						"g": 0.7,
+						"b": 0.7,
+						"a": 1
+					}
+				}
+			}
+		],
+		"componentDependencies": []
+	},
+	{
+		"dependencies": [],
+		"prefabName": "",
+		"name": null,
+		"components": [
+			{
+				"class": "Physics",
+				"bodyBuilderDependency": "",
+				"bodyData": {
+					"bodyDef": {
+						"type": "DynamicBody",
+						"position": {
+							"x": 14.873802,
+							"y": 9.2821455
+						},
+						"angle": -1.1101565,
+						"linearVelocity": {
+							"x": 0,
+							"y": 0
+						},
+						"angularVelocity": 0,
+						"linearDamping": 2,
+						"angularDamping": 2,
+						"allowSleep": true,
+						"awake": true,
+						"fixedRotation": false,
+						"bullet": false,
+						"active": true,
+						"gravityScale": 1
+					},
+					"fixtures": [
+						{
+							"name": "CircleFixture",
+							"friction": 0.8,
+							"restitution": 0.05,
+							"density": 0.5,
+							"isSensor": false,
+							"shape": {
+								"vertexDependency": "",
+								"vertices": [],
+								"shapeType": "Circle",
+								"radius": 0.5,
+								"position": {
+									"x": 0,
+									"y": 0
+								}
+							}
+						}
+					]
+				}
+			},
+			{
+				"class": "Transform",
+				"position": {
+					"x": 14.873802,
+					"y": 9.2821455
+				},
+				"z": 0,
+				"angle": -1.1101565
+			},
+			{
+				"class": "SpriteGraphics",
+				"spriteBuilderDependency": "",
+				"spriteData": {
+					"name": null,
+					"width": 1,
+					"height": 1,
+					"origin": {
+						"x": 0.5,
+						"y": 0.5
+					},
+					"texture": "barrel.png",
+					"color": {
+						"r": 0.6,
+						"g": 0.6,
+						"b": 0.6,
+						"a": 1
+					}
+				}
+			}
+		],
+		"componentDependencies": []
+	},
+	{
+		"dependencies": [],
+		"prefabName": "",
+		"name": null,
+		"components": [
+			{
+				"class": "Physics",
+				"bodyBuilderDependency": "",
+				"bodyData": {
+					"bodyDef": {
+						"type": "DynamicBody",
+						"position": {
+							"x": 13.500219,
+							"y": 1.791247
+						},
+						"angle": 2.9509976,
+						"linearVelocity": {
+							"x": 0,
+							"y": 0
+						},
+						"angularVelocity": 0,
+						"linearDamping": 2,
+						"angularDamping": 2,
+						"allowSleep": true,
+						"awake": true,
+						"fixedRotation": false,
+						"bullet": false,
+						"active": true,
+						"gravityScale": 1
+					},
+					"fixtures": [
+						{
+							"name": "PolygonFixture",
+							"friction": 0.8,
+							"restitution": 0.8,
+							"density": 2,
+							"isSensor": false,
+							"shape": {
+								"vertexDependency": "TriangleVerts",
+								"vertices": [ -0.5, -0.5, 0.5, -0.5, 0, 0.5 ],
+								"shapeType": "Polygon",
+								"radius": 0.5,
+								"position": {
+									"x": 0,
+									"y": 0
+								}
+							}
+						}
+					]
+				}
+			},
+			{
+				"class": "Transform",
+				"position": {
+					"x": 13.500219,
+					"y": 1.791247
+				},
+				"z": 0,
+				"angle": 2.9509976
+			},
+			{
+				"class": "MeshGraphics",
+				"meshBuilderDependency": null,
+				"meshData": {
+					"vertexDependency": "TriangleVerts",
+					"vertices": [ -0.5, -0.5, 0.5, -0.5, 0, 0.5 ],
+					"indices": [ 0, 1, 2 ],
+					"colors": [ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ],
+					"textureCoords": [ 0, 1, 1, 1, 0.5, 0 ]
+				},
+				"xScale": 1,
+				"yScale": 1,
+				"textureName": "default.png"
+			}
+		],
+		"componentDependencies": []
+	},
+	{
+		"dependencies": [],
+		"prefabName": "",
+		"name": null,
+		"components": [
+			{
+				"class": "Physics",
+				"bodyBuilderDependency": "",
+				"bodyData": {
+					"bodyDef": {
+						"type": "DynamicBody",
+						"position": {
+							"x": -0.49674323,
+							"y": 6.244276
+						},
+						"angle": -3.4801216,
+						"linearVelocity": {
+							"x": 0,
+							"y": 0
+						},
+						"angularVelocity": 0,
+						"linearDamping": 2,
+						"angularDamping": 2,
+						"allowSleep": true,
+						"awake": true,
+						"fixedRotation": false,
+						"bullet": false,
+						"active": true,
+						"gravityScale": 1
+					},
+					"fixtures": [
+						{
+							"name": "CircleFixture",
+							"friction": 0.8,
+							"restitution": 0.05,
+							"density": 2,
+							"isSensor": false,
+							"shape": {
+								"vertexDependency": "",
+								"vertices": [],
+								"shapeType": "Circle",
+								"radius": 0.5,
+								"position": {
+									"x": 0,
+									"y": 0
+								}
+							}
+						}
+					]
+				}
+			},
+			{
+				"class": "Transform",
+				"position": {
+					"x": -0.49674323,
+					"y": 6.244276
+				},
+				"z": 0,
+				"angle": -3.4801216
+			},
+			{
+				"class": "ProximitySensor",
+				"radius": 1.25
+			},
+			{
+				"class": "GroupHeal",
+				"healRate": 10,
+				"numToHeal": 2,
+				"healGroupId": 69
+			},
+			{
+				"class": "Health",
+				"drawHealth": true,
+				"health": 100,
+				"maxHealth": 100
+			},
+			{
+				"class": "SpriteGraphics",
+				"spriteBuilderDependency": "",
+				"spriteData": {
+					"name": null,
+					"width": 1,
+					"height": 1,
+					"origin": {
+						"x": 0.5,
+						"y": 0.5
+					},
+					"texture": "barrel.png",
+					"color": {
+						"r": 0.1,
+						"g": 1,
+						"b": 0.7,
+						"a": 1
+					}
+				}
+			}
+		],
+		"componentDependencies": []
+	},
+	{
+		"dependencies": [],
+		"prefabName": "",
+		"name": null,
+		"components": [
+			{
+				"class": "Physics",
+				"bodyBuilderDependency": "",
+				"bodyData": {
+					"bodyDef": {
+						"type": "DynamicBody",
+						"position": {
+							"x": 0.77541643,
+							"y": 3.456978
+						},
+						"angle": -5.143398,
+						"linearVelocity": {
+							"x": 0,
+							"y": 0
+						},
+						"angularVelocity": 0,
+						"linearDamping": 2,
+						"angularDamping": 2,
+						"allowSleep": true,
+						"awake": true,
+						"fixedRotation": false,
+						"bullet": false,
+						"active": true,
+						"gravityScale": 1
+					},
+					"fixtures": [
+						{
+							"name": "CircleFixture",
+							"friction": 0.8,
+							"restitution": 0.05,
+							"density": 2,
+							"isSensor": false,
+							"shape": {
+								"vertexDependency": "",
+								"vertices": [],
+								"shapeType": "Circle",
+								"radius": 0.5,
+								"position": {
+									"x": 0,
+									"y": 0
+								}
+							}
+						}
+					]
+				}
+			},
+			{
+				"class": "Transform",
+				"position": {
+					"x": 0.77541643,
+					"y": 3.456978
+				},
+				"z": 0,
+				"angle": -5.143398
+			},
+			{
+				"class": "ProximitySensor",
+				"radius": 1.25
+			},
+			{
+				"class": "GroupHeal",
+				"healRate": 10,
+				"numToHeal": 2,
+				"healGroupId": 69
+			},
+			{
+				"class": "Health",
+				"drawHealth": true,
+				"health": 74,
+				"maxHealth": 100
+			},
+			{
+				"class": "SpriteGraphics",
+				"spriteBuilderDependency": "",
+				"spriteData": {
+					"name": null,
+					"width": 1,
+					"height": 1,
+					"origin": {
+						"x": 0.5,
+						"y": 0.5
+					},
+					"texture": "barrel.png",
+					"color": {
+						"r": 0.1,
+						"g": 1,
+						"b": 0.7,
+						"a": 1
+					}
+				}
+			}
+		],
+		"componentDependencies": []
+	},
+	{
+		"dependencies": [],
+		"prefabName": "",
+		"name": null,
+		"components": [
+			{
+				"class": "Physics",
+				"bodyBuilderDependency": "",
+				"bodyData": {
+					"bodyDef": {
+						"type": "DynamicBody",
+						"position": {
+							"x": 3.1208773,
+							"y": 3.048807
+						},
+						"angle": 7.3990026,
+						"linearVelocity": {
+							"x": 0,
+							"y": 0
+						},
+						"angularVelocity": 0,
+						"linearDamping": 2,
+						"angularDamping": 2,
+						"allowSleep": true,
+						"awake": true,
+						"fixedRotation": false,
+						"bullet": false,
+						"active": true,
+						"gravityScale": 1
+					},
+					"fixtures": [
+						{
+							"name": "CircleFixture",
+							"friction": 0.8,
+							"restitution": 0.05,
+							"density": 2,
+							"isSensor": false,
+							"shape": {
+								"vertexDependency": "",
+								"vertices": [],
+								"shapeType": "Circle",
+								"radius": 0.5,
+								"position": {
+									"x": 0,
+									"y": 0
+								}
+							}
+						}
+					]
+				}
+			},
+			{
+				"class": "Transform",
+				"position": {
+					"x": 3.1208773,
+					"y": 3.048807
+				},
+				"z": 0,
+				"angle": 7.3990026
+			},
+			{
+				"class": "ProximitySensor",
+				"radius": 1.25
+			},
+			{
+				"class": "GroupHeal",
+				"healRate": 10,
+				"numToHeal": 2,
+				"healGroupId": 69
+			},
+			{
+				"class": "Health",
+				"drawHealth": true,
+				"health": 67.170906,
+				"maxHealth": 100
+			},
+			{
+				"class": "SpriteGraphics",
+				"spriteBuilderDependency": "",
+				"spriteData": {
+					"name": null,
+					"width": 1,
+					"height": 1,
+					"origin": {
+						"x": 0.5,
+						"y": 0.5
+					},
+					"texture": "barrel.png",
+					"color": {
+						"r": 0.1,
+						"g": 1,
+						"b": 0.7,
+						"a": 1
+					}
+				}
+			}
+		],
+		"componentDependencies": []
+	},
+	{
+		"dependencies": [],
+		"prefabName": "",
+		"name": null,
+		"components": [
+			{
+				"class": "Physics",
+				"bodyBuilderDependency": "",
+				"bodyData": {
+					"bodyDef": {
+						"type": "DynamicBody",
+						"position": {
+							"x": 5.2934403,
+							"y": 5.271596
+						},
+						"angle": 1.5155754,
+						"linearVelocity": {
+							"x": 0,
+							"y": 0
+						},
+						"angularVelocity": 0,
+						"linearDamping": 2,
+						"angularDamping": 2,
+						"allowSleep": true,
+						"awake": true,
+						"fixedRotation": false,
+						"bullet": false,
+						"active": true,
+						"gravityScale": 1
+					},
+					"fixtures": [
+						{
+							"name": "CircleFixture",
+							"friction": 0.8,
+							"restitution": 0.05,
+							"density": 2,
+							"isSensor": false,
+							"shape": {
+								"vertexDependency": "",
+								"vertices": [],
+								"shapeType": "Circle",
+								"radius": 0.5,
+								"position": {
+									"x": 0,
+									"y": 0
+								}
+							}
+						}
+					]
+				}
+			},
+			{
+				"class": "Transform",
+				"position": {
+					"x": 5.2934403,
+					"y": 5.271596
+				},
+				"z": 0,
+				"angle": 1.5155754
+			},
+			{
+				"class": "ProximitySensor",
+				"radius": 1.25
+			},
+			{
+				"class": "GroupHeal",
+				"healRate": 10,
+				"numToHeal": 2,
+				"healGroupId": 69
+			},
+			{
+				"class": "Health",
+				"drawHealth": true,
+				"health": 100,
+				"maxHealth": 100
+			},
+			{
+				"class": "SpriteGraphics",
+				"spriteBuilderDependency": "",
+				"spriteData": {
+					"name": null,
+					"width": 1,
+					"height": 1,
+					"origin": {
+						"x": 0.5,
+						"y": 0.5
+					},
+					"texture": "barrel.png",
+					"color": {
+						"r": 0.1,
+						"g": 1,
+						"b": 0.7,
+						"a": 1
+					}
+				}
+			}
+		],
+		"componentDependencies": []
+	},
+	{
+		"dependencies": [],
+		"prefabName": "",
+		"name": null,
+		"components": [
+			{
+				"class": "Physics",
+				"bodyBuilderDependency": "",
+				"bodyData": {
+					"bodyDef": {
+						"type": "DynamicBody",
+						"position": {
+							"x": 1.119672,
+							"y": 9.442307
+						},
+						"angle": -7.8006063,
+						"linearVelocity": {
+							"x": 0,
+							"y": 0
+						},
+						"angularVelocity": 0,
+						"linearDamping": 2,
+						"angularDamping": 2,
+						"allowSleep": true,
+						"awake": true,
+						"fixedRotation": false,
+						"bullet": false,
+						"active": true,
+						"gravityScale": 1
+					},
+					"fixtures": [
+						{
+							"name": "CircleFixture",
+							"friction": 0.8,
+							"restitution": 0.05,
+							"density": 2,
+							"isSensor": false,
+							"shape": {
+								"vertexDependency": "",
+								"vertices": [],
+								"shapeType": "Circle",
+								"radius": 0.5,
+								"position": {
+									"x": 0,
+									"y": 0
+								}
+							}
+						}
+					]
+				}
+			},
+			{
+				"class": "Transform",
+				"position": {
+					"x": 1.119672,
+					"y": 9.442307
+				},
+				"z": 0,
+				"angle": -7.8006063
+			},
+			{
+				"class": "ProximitySensor",
+				"radius": 1.25
+			},
+			{
+				"class": "GroupHeal",
+				"healRate": 10,
+				"numToHeal": 2,
+				"healGroupId": 69
+			},
+			{
+				"class": "Health",
+				"drawHealth": true,
+				"health": 81.50131,
+				"maxHealth": 100
+			},
+			{
+				"class": "SpriteGraphics",
+				"spriteBuilderDependency": "",
+				"spriteData": {
+					"name": null,
+					"width": 1,
+					"height": 1,
+					"origin": {
+						"x": 0.5,
+						"y": 0.5
+					},
+					"texture": "barrel.png",
+					"color": {
+						"r": 0.1,
+						"g": 1,
+						"b": 0.7,
+						"a": 1
+					}
+				}
+			}
+		],
+		"componentDependencies": []
+	},
+	{
+		"dependencies": [],
+		"prefabName": "",
+		"name": null,
+		"components": [
+			{
+				"class": "Physics",
+				"bodyBuilderDependency": "",
+				"bodyData": {
+					"bodyDef": {
+						"type": "DynamicBody",
+						"position": {
+							"x": 1.8366015,
+							"y": 6.615953
+						},
+						"angle": -0.5907174,
+						"linearVelocity": {
+							"x": 0,
+							"y": 0
+						},
+						"angularVelocity": 0,
+						"linearDamping": 2,
+						"angularDamping": 2,
+						"allowSleep": true,
+						"awake": true,
+						"fixedRotation": false,
+						"bullet": false,
+						"active": true,
+						"gravityScale": 1
+					},
+					"fixtures": [
+						{
+							"name": "CircleFixture",
+							"friction": 0.8,
+							"restitution": 0.05,
+							"density": 2,
+							"isSensor": false,
+							"shape": {
+								"vertexDependency": "",
+								"vertices": [],
+								"shapeType": "Circle",
+								"radius": 0.5,
+								"position": {
+									"x": 0,
+									"y": 0
+								}
+							}
+						}
+					]
+				}
+			},
+			{
+				"class": "Transform",
+				"position": {
+					"x": 1.8366015,
+					"y": 6.615953
+				},
+				"z": 0,
+				"angle": -0.5907174
+			},
+			{
+				"class": "ProximitySensor",
+				"radius": 1.25
+			},
+			{
+				"class": "GroupHeal",
+				"healRate": 10,
+				"numToHeal": 2,
+				"healGroupId": 69
+			},
+			{
+				"class": "Health",
+				"drawHealth": true,
+				"health": 74,
+				"maxHealth": 100
+			},
+			{
+				"class": "SpriteGraphics",
+				"spriteBuilderDependency": "",
+				"spriteData": {
+					"name": null,
+					"width": 1,
+					"height": 1,
+					"origin": {
+						"x": 0.5,
+						"y": 0.5
+					},
+					"texture": "barrel.png",
+					"color": {
+						"r": 0.1,
+						"g": 1,
+						"b": 0.7,
+						"a": 1
+					}
+				}
+			}
+		],
+		"componentDependencies": []
+	},
+	{
+		"dependencies": [],
+		"prefabName": "",
+		"name": null,
+		"components": [
+			{
+				"class": "Physics",
+				"bodyBuilderDependency": "",
+				"bodyData": {
+					"bodyDef": {
+						"type": "DynamicBody",
+						"position": {
+							"x": 4.467603,
+							"y": 7.6038117
+						},
+						"angle": 4.4106984,
+						"linearVelocity": {
+							"x": 0,
+							"y": 0
+						},
+						"angularVelocity": 0,
+						"linearDamping": 2,
+						"angularDamping": 2,
+						"allowSleep": true,
+						"awake": true,
+						"fixedRotation": false,
+						"bullet": false,
+						"active": true,
+						"gravityScale": 1
+					},
+					"fixtures": [
+						{
+							"name": "CircleFixture",
+							"friction": 0.8,
+							"restitution": 0.05,
+							"density": 2,
+							"isSensor": false,
+							"shape": {
+								"vertexDependency": "",
+								"vertices": [],
+								"shapeType": "Circle",
+								"radius": 0.5,
+								"position": {
+									"x": 0,
+									"y": 0
+								}
+							}
+						}
+					]
+				}
+			},
+			{
+				"class": "Transform",
+				"position": {
+					"x": 4.467603,
+					"y": 7.6038117
+				},
+				"z": 0,
+				"angle": 4.4106984
+			},
+			{
+				"class": "ProximitySensor",
+				"radius": 1.25
+			},
+			{
+				"class": "GroupHeal",
+				"healRate": 10,
+				"numToHeal": 2,
+				"healGroupId": 69
+			},
+			{
+				"class": "Health",
+				"drawHealth": true,
+				"health": 22,
+				"maxHealth": 100
+			},
+			{
+				"class": "SpriteGraphics",
+				"spriteBuilderDependency": "",
+				"spriteData": {
+					"name": null,
+					"width": 1,
+					"height": 1,
+					"origin": {
+						"x": 0.5,
+						"y": 0.5
+					},
+					"texture": "barrel.png",
+					"color": {
+						"r": 0.1,
+						"g": 1,
+						"b": 0.7,
+						"a": 1
+					}
+				}
+			}
+		],
+		"componentDependencies": []
+	},
+	{
+		"dependencies": [],
+		"prefabName": "",
+		"name": null,
+		"components": [
+			{
+				"class": "Physics",
+				"bodyBuilderDependency": "",
+				"bodyData": {
+					"bodyDef": {
+						"type": "DynamicBody",
+						"position": {
+							"x": 10.449488,
+							"y": 3.409143
+						},
+						"angle": -1.0536479,
+						"linearVelocity": {
+							"x": 0,
+							"y": 0
+						},
+						"angularVelocity": 0,
+						"linearDamping": 2,
+						"angularDamping": 2,
+						"allowSleep": true,
+						"awake": true,
+						"fixedRotation": false,
+						"bullet": false,
+						"active": true,
+						"gravityScale": 1
+					},
+					"fixtures": [
+						{
+							"name": "CircleFixture",
+							"friction": 0.8,
+							"restitution": 0.05,
+							"density": 2,
+							"isSensor": false,
+							"shape": {
+								"vertexDependency": "",
+								"vertices": [],
+								"shapeType": "Circle",
+								"radius": 0.5,
+								"position": {
+									"x": 0,
+									"y": 0
+								}
+							}
+						}
+					]
+				}
+			},
+			{
+				"class": "Transform",
+				"position": {
+					"x": 10.449488,
+					"y": 3.409143
+				},
+				"z": 0,
+				"angle": -1.0536479
+			},
+			{
+				"class": "ProximitySensor",
+				"radius": 1.25
+			},
+			{
+				"class": "GroupHeal",
+				"healRate": 10,
+				"numToHeal": 2,
+				"healGroupId": 69
+			},
+			{
+				"class": "Health",
+				"drawHealth": true,
+				"health": 35,
+				"maxHealth": 100
+			},
+			{
+				"class": "SpriteGraphics",
+				"spriteBuilderDependency": "",
+				"spriteData": {
+					"name": null,
+					"width": 1,
+					"height": 1,
+					"origin": {
+						"x": 0.5,
+						"y": 0.5
+					},
+					"texture": "barrel.png",
+					"color": {
+						"r": 0.1,
+						"g": 1,
+						"b": 0.7,
+						"a": 1
+					}
+				}
+			}
+		],
+		"componentDependencies": []
+	},
+	{
+		"dependencies": [],
+		"prefabName": "",
+		"name": null,
+		"components": [
+			{
+				"class": "Physics",
+				"bodyBuilderDependency": "",
+				"bodyData": {
+					"bodyDef": {
+						"type": "DynamicBody",
+						"position": {
+							"x": 4.231719,
+							"y": 3.5443685
+						},
+						"angle": 7.745149,
+						"linearVelocity": {
+							"x": 0,
+							"y": 0
+						},
+						"angularVelocity": 0,
+						"linearDamping": 2,
+						"angularDamping": 2,
+						"allowSleep": true,
+						"awake": true,
+						"fixedRotation": false,
+						"bullet": false,
+						"active": true,
+						"gravityScale": 1
+					},
+					"fixtures": [
+						{
+							"name": "CircleFixture",
+							"friction": 0.8,
+							"restitution": 0.05,
+							"density": 2,
+							"isSensor": false,
+							"shape": {
+								"vertexDependency": "",
+								"vertices": [],
+								"shapeType": "Circle",
+								"radius": 0.5,
+								"position": {
+									"x": 0,
+									"y": 0
+								}
+							}
+						}
+					]
+				}
+			},
+			{
+				"class": "Transform",
+				"position": {
+					"x": 4.231719,
+					"y": 3.5443685
+				},
+				"z": 0,
+				"angle": 7.745149
+			},
+			{
+				"class": "ProximitySensor",
+				"radius": 1.25
+			},
+			{
+				"class": "GroupHeal",
+				"healRate": 10,
+				"numToHeal": 2,
+				"healGroupId": 69
+			},
+			{
+				"class": "Health",
+				"drawHealth": true,
+				"health": 69.49687,
+				"maxHealth": 100
+			},
+			{
+				"class": "SpriteGraphics",
+				"spriteBuilderDependency": "",
+				"spriteData": {
+					"name": null,
+					"width": 1,
+					"height": 1,
+					"origin": {
+						"x": 0.5,
+						"y": 0.5
+					},
+					"texture": "barrel.png",
+					"color": {
+						"r": 0.1,
+						"g": 1,
+						"b": 0.7,
+						"a": 1
+					}
+				}
+			}
+		],
+		"componentDependencies": []
+	},
+	{
+		"dependencies": [],
+		"prefabName": "",
+		"name": null,
+		"components": [
+			{
+				"class": "Physics",
+				"bodyBuilderDependency": "",
+				"bodyData": {
+					"bodyDef": {
+						"type": "DynamicBody",
+						"position": {
+							"x": 13.414307,
+							"y": 10.0354
+						},
+						"angle": 1.4558132,
+						"linearVelocity": {
+							"x": 0,
+							"y": 0
+						},
+						"angularVelocity": 0,
+						"linearDamping": 2,
+						"angularDamping": 2,
+						"allowSleep": true,
+						"awake": true,
+						"fixedRotation": false,
+						"bullet": false,
+						"active": true,
+						"gravityScale": 1
+					},
+					"fixtures": [
+						{
+							"name": "CircleFixture",
+							"friction": 0.8,
+							"restitution": 0.05,
+							"density": 2,
+							"isSensor": false,
+							"shape": {
+								"vertexDependency": "",
+								"vertices": [],
+								"shapeType": "Circle",
+								"radius": 0.5,
+								"position": {
+									"x": 0,
+									"y": 0
+								}
+							}
+						}
+					]
+				}
+			},
+			{
+				"class": "Transform",
+				"position": {
+					"x": 13.414307,
+					"y": 10.0354
+				},
+				"z": 0,
+				"angle": 1.4558132
+			},
+			{
+				"class": "ProximitySensor",
+				"radius": 1.25
+			},
+			{
+				"class": "GroupHeal",
+				"healRate": 10,
+				"numToHeal": 2,
+				"healGroupId": 69
+			},
+			{
+				"class": "Health",
+				"drawHealth": true,
+				"health": 74,
+				"maxHealth": 100
+			},
+			{
+				"class": "SpriteGraphics",
+				"spriteBuilderDependency": "",
+				"spriteData": {
+					"name": null,
+					"width": 1,
+					"height": 1,
+					"origin": {
+						"x": 0.5,
+						"y": 0.5
+					},
+					"texture": "barrel.png",
+					"color": {
+						"r": 0.1,
+						"g": 1,
+						"b": 0.7,
+						"a": 1
+					}
+				}
+			}
+		],
+		"componentDependencies": []
+	},
+	{
+		"dependencies": [],
+		"prefabName": "",
+		"name": null,
+		"components": [
+			{
+				"class": "Physics",
+				"bodyBuilderDependency": "",
+				"bodyData": {
+					"bodyDef": {
+						"type": "DynamicBody",
+						"position": {
+							"x": 15.834496,
+							"y": 7.0897107
+						},
+						"angle": -4.993038,
+						"linearVelocity": {
+							"x": 0,
+							"y": 0
+						},
+						"angularVelocity": 0,
+						"linearDamping": 2,
+						"angularDamping": 2,
+						"allowSleep": true,
+						"awake": true,
+						"fixedRotation": false,
+						"bullet": false,
+						"active": true,
+						"gravityScale": 1
+					},
+					"fixtures": [
+						{
+							"name": "CircleFixture",
+							"friction": 0.8,
+							"restitution": 0.05,
+							"density": 2,
+							"isSensor": false,
+							"shape": {
+								"vertexDependency": "",
+								"vertices": [],
+								"shapeType": "Circle",
+								"radius": 0.5,
+								"position": {
+									"x": 0,
+									"y": 0
+								}
+							}
+						}
+					]
+				}
+			},
+			{
+				"class": "Transform",
+				"position": {
+					"x": 15.834496,
+					"y": 7.0897107
+				},
+				"z": 0,
+				"angle": -4.993038
+			},
+			{
+				"class": "ProximitySensor",
+				"radius": 1.25
+			},
+			{
+				"class": "GroupHeal",
+				"healRate": 10,
+				"numToHeal": 2,
+				"healGroupId": 69
+			},
+			{
+				"class": "Health",
+				"drawHealth": true,
+				"health": 100,
+				"maxHealth": 100
+			},
+			{
+				"class": "SpriteGraphics",
+				"spriteBuilderDependency": "",
+				"spriteData": {
+					"name": null,
+					"width": 1,
+					"height": 1,
+					"origin": {
+						"x": 0.5,
+						"y": 0.5
+					},
+					"texture": "barrel.png",
+					"color": {
+						"r": 0.1,
+						"g": 1,
+						"b": 0.7,
+						"a": 1
+					}
+				}
+			}
+		],
+		"componentDependencies": []
+	},
+	{
+		"dependencies": [],
+		"prefabName": "",
+		"name": null,
+		"components": [
+			{
+				"class": "Physics",
+				"bodyBuilderDependency": "",
+				"bodyData": {
+					"bodyDef": {
+						"type": "DynamicBody",
+						"position": {
+							"x": 17.634588,
+							"y": 8.273266
+						},
+						"angle": 3.6899037,
+						"linearVelocity": {
+							"x": 0,
+							"y": 0
+						},
+						"angularVelocity": 0,
+						"linearDamping": 2,
+						"angularDamping": 2,
+						"allowSleep": true,
+						"awake": true,
+						"fixedRotation": false,
+						"bullet": false,
+						"active": true,
+						"gravityScale": 1
+					},
+					"fixtures": [
+						{
+							"name": "CircleFixture",
+							"friction": 0.8,
+							"restitution": 0.05,
+							"density": 2,
+							"isSensor": false,
+							"shape": {
+								"vertexDependency": "",
+								"vertices": [],
+								"shapeType": "Circle",
+								"radius": 0.5,
+								"position": {
+									"x": 0,
+									"y": 0
+								}
+							}
+						}
+					]
+				}
+			},
+			{
+				"class": "Transform",
+				"position": {
+					"x": 17.634588,
+					"y": 8.273266
+				},
+				"z": 0,
+				"angle": 3.6899037
+			},
+			{
+				"class": "ProximitySensor",
+				"radius": 1.25
+			},
+			{
+				"class": "GroupHeal",
+				"healRate": 10,
+				"numToHeal": 2,
+				"healGroupId": 69
+			},
+			{
+				"class": "Health",
+				"drawHealth": true,
+				"health": 88.83622,
+				"maxHealth": 100
+			},
+			{
+				"class": "SpriteGraphics",
+				"spriteBuilderDependency": "",
+				"spriteData": {
+					"name": null,
+					"width": 1,
+					"height": 1,
+					"origin": {
+						"x": 0.5,
+						"y": 0.5
+					},
+					"texture": "barrel.png",
+					"color": {
+						"r": 0.1,
+						"g": 1,
+						"b": 0.7,
+						"a": 1
+					}
+				}
+			}
+		],
+		"componentDependencies": []
+	},
+	{
+		"dependencies": [],
+		"prefabName": "",
+		"name": null,
+		"components": [
+			{
+				"class": "Physics",
+				"bodyBuilderDependency": "",
+				"bodyData": {
+					"bodyDef": {
+						"type": "DynamicBody",
+						"position": {
+							"x": 19.355392,
+							"y": 5.7950993
+						},
+						"angle": -3.090061,
+						"linearVelocity": {
+							"x": 0,
+							"y": 0
+						},
+						"angularVelocity": 0,
+						"linearDamping": 2,
+						"angularDamping": 2,
+						"allowSleep": true,
+						"awake": true,
+						"fixedRotation": false,
+						"bullet": false,
+						"active": true,
+						"gravityScale": 1
+					},
+					"fixtures": [
+						{
+							"name": "CircleFixture",
+							"friction": 0.8,
+							"restitution": 0.05,
+							"density": 2,
+							"isSensor": false,
+							"shape": {
+								"vertexDependency": "",
+								"vertices": [],
+								"shapeType": "Circle",
+								"radius": 0.5,
+								"position": {
+									"x": 0,
+									"y": 0
+								}
+							}
+						}
+					]
+				}
+			},
+			{
+				"class": "Transform",
+				"position": {
+					"x": 19.355392,
+					"y": 5.7950993
+				},
+				"z": 0,
+				"angle": -3.090061
+			},
+			{
+				"class": "ProximitySensor",
+				"radius": 1.25
+			},
+			{
+				"class": "GroupHeal",
+				"healRate": 10,
+				"numToHeal": 2,
+				"healGroupId": 69
+			},
+			{
+				"class": "Health",
+				"drawHealth": true,
+				"health": 87,
+				"maxHealth": 100
+			},
+			{
+				"class": "SpriteGraphics",
+				"spriteBuilderDependency": "",
+				"spriteData": {
+					"name": null,
+					"width": 1,
+					"height": 1,
+					"origin": {
+						"x": 0.5,
+						"y": 0.5
+					},
+					"texture": "barrel.png",
+					"color": {
+						"r": 0.1,
+						"g": 1,
+						"b": 0.7,
+						"a": 1
+					}
+				}
+			}
+		],
+		"componentDependencies": []
+	},
+	{
+		"dependencies": [],
+		"prefabName": "",
+		"name": null,
+		"components": [
+			{
+				"class": "Physics",
+				"bodyBuilderDependency": "",
+				"bodyData": {
+					"bodyDef": {
+						"type": "StaticBody",
+						"position": {
+							"x": -4,
+							"y": 12
+						},
+						"angle": 0,
+						"linearVelocity": {
+							"x": 0,
+							"y": 0
+						},
+						"angularVelocity": 0,
+						"linearDamping": 0,
+						"angularDamping": 0,
+						"allowSleep": true,
+						"awake": true,
+						"fixedRotation": false,
+						"bullet": false,
+						"active": true,
+						"gravityScale": 1
+					},
+					"fixtures": [
+						{
+							"name": "BoxFixture",
+							"friction": 0.05,
+							"restitution": 0.05,
+							"density": 2,
+							"isSensor": false,
+							"shape": {
+								"vertexDependency": "",
+								"vertices": [ -1, 1, -1, -1, 1, -1, 1, 1 ],
+								"shapeType": "Polygon",
+								"radius": 1,
+								"position": {
+									"x": 0,
+									"y": 0
+								}
+							}
+						}
+					]
+				}
+			},
+			{
+				"class": "Transform",
+				"position": {
+					"x": -4,
+					"y": 12
+				},
+				"z": 0,
+				"angle": 0
+			},
+			{
+				"class": "SpriteGraphics",
+				"spriteBuilderDependency": "",
+				"spriteData": {
+					"name": null,
+					"width": 2,
+					"height": 2,
+					"origin": {
+						"x": 1,
+						"y": 1
+					},
+					"texture": "default.png",
+					"color": {
+						"r": 1,
+						"g": 1,
+						"b": 1,
+						"a": 1
+					}
+				}
+			}
+		],
+		"componentDependencies": []
+	},
+	{
+		"dependencies": [],
+		"prefabName": "",
+		"name": null,
+		"components": [
+			{
+				"class": "Physics",
+				"bodyBuilderDependency": "",
+				"bodyData": {
+					"bodyDef": {
+						"type": "StaticBody",
+						"position": {
+							"x": -4,
+							"y": -4
+						},
+						"angle": 0,
+						"linearVelocity": {
+							"x": 0,
+							"y": 0
+						},
+						"angularVelocity": 0,
+						"linearDamping": 0,
+						"angularDamping": 0,
+						"allowSleep": true,
+						"awake": true,
+						"fixedRotation": false,
+						"bullet": false,
+						"active": true,
+						"gravityScale": 1
+					},
+					"fixtures": [
+						{
+							"name": "BoxFixture",
+							"friction": 0.05,
+							"restitution": 0.05,
+							"density": 2,
+							"isSensor": false,
+							"shape": {
+								"vertexDependency": "",
+								"vertices": [ -1, 1, -1, -1, 1, -1, 1, 1 ],
+								"shapeType": "Polygon",
+								"radius": 1,
+								"position": {
+									"x": 0,
+									"y": 0
+								}
+							}
+						}
+					]
+				}
+			},
+			{
+				"class": "Transform",
+				"position": {
+					"x": -4,
+					"y": -4
+				},
+				"z": 0,
+				"angle": 0
+			},
+			{
+				"class": "SpriteGraphics",
+				"spriteBuilderDependency": "",
+				"spriteData": {
+					"name": null,
+					"width": 2,
+					"height": 2,
+					"origin": {
+						"x": 1,
+						"y": 1
+					},
+					"texture": "default.png",
+					"color": {
+						"r": 1,
+						"g": 1,
+						"b": 1,
+						"a": 1
+					}
+				}
+			}
+		],
+		"componentDependencies": []
+	},
+	{
+		"dependencies": [],
+		"prefabName": "",
+		"name": null,
+		"components": [
+			{
+				"class": "Physics",
+				"bodyBuilderDependency": "",
+				"bodyData": {
+					"bodyDef": {
+						"type": "StaticBody",
+						"position": {
+							"x": -2,
+							"y": 12
+						},
+						"angle": 0,
+						"linearVelocity": {
+							"x": 0,
+							"y": 0
+						},
+						"angularVelocity": 0,
+						"linearDamping": 0,
+						"angularDamping": 0,
+						"allowSleep": true,
+						"awake": true,
+						"fixedRotation": false,
+						"bullet": false,
+						"active": true,
+						"gravityScale": 1
+					},
+					"fixtures": [
+						{
+							"name": "BoxFixture",
+							"friction": 0.05,
+							"restitution": 0.05,
+							"density": 2,
+							"isSensor": false,
+							"shape": {
+								"vertexDependency": "",
+								"vertices": [ -1, 1, -1, -1, 1, -1, 1, 1 ],
+								"shapeType": "Polygon",
+								"radius": 1,
+								"position": {
+									"x": 0,
+									"y": 0
+								}
+							}
+						}
+					]
+				}
+			},
+			{
+				"class": "Transform",
+				"position": {
+					"x": -2,
+					"y": 12
+				},
+				"z": 0,
+				"angle": 0
+			},
+			{
+				"class": "SpriteGraphics",
+				"spriteBuilderDependency": "",
+				"spriteData": {
+					"name": null,
+					"width": 2,
+					"height": 2,
+					"origin": {
+						"x": 1,
+						"y": 1
+					},
+					"texture": "default.png",
+					"color": {
+						"r": 1,
+						"g": 1,
+						"b": 1,
+						"a": 1
+					}
+				}
+			}
+		],
+		"componentDependencies": []
+	},
+	{
+		"dependencies": [],
+		"prefabName": "",
+		"name": null,
+		"components": [
+			{
+				"class": "Physics",
+				"bodyBuilderDependency": "",
+				"bodyData": {
+					"bodyDef": {
+						"type": "StaticBody",
+						"position": {
+							"x": -2,
+							"y": -4
+						},
+						"angle": 0,
+						"linearVelocity": {
+							"x": 0,
+							"y": 0
+						},
+						"angularVelocity": 0,
+						"linearDamping": 0,
+						"angularDamping": 0,
+						"allowSleep": true,
+						"awake": true,
+						"fixedRotation": false,
+						"bullet": false,
+						"active": true,
+						"gravityScale": 1
+					},
+					"fixtures": [
+						{
+							"name": "BoxFixture",
+							"friction": 0.05,
+							"restitution": 0.05,
+							"density": 2,
+							"isSensor": false,
+							"shape": {
+								"vertexDependency": "",
+								"vertices": [ -1, 1, -1, -1, 1, -1, 1, 1 ],
+								"shapeType": "Polygon",
+								"radius": 1,
+								"position": {
+									"x": 0,
+									"y": 0
+								}
+							}
+						}
+					]
+				}
+			},
+			{
+				"class": "Transform",
+				"position": {
+					"x": -2,
+					"y": -4
+				},
+				"z": 0,
+				"angle": 0
+			},
+			{
+				"class": "SpriteGraphics",
+				"spriteBuilderDependency": "",
+				"spriteData": {
+					"name": null,
+					"width": 2,
+					"height": 2,
+					"origin": {
+						"x": 1,
+						"y": 1
+					},
+					"texture": "default.png",
+					"color": {
+						"r": 1,
+						"g": 1,
+						"b": 1,
+						"a": 1
+					}
+				}
+			}
+		],
+		"componentDependencies": []
+	},
+	{
+		"dependencies": [],
+		"prefabName": "",
+		"name": null,
+		"components": [
+			{
+				"class": "Physics",
+				"bodyBuilderDependency": "",
+				"bodyData": {
+					"bodyDef": {
+						"type": "StaticBody",
+						"position": {
+							"x": 0,
+							"y": 12
+						},
+						"angle": 0,
+						"linearVelocity": {
+							"x": 0,
+							"y": 0
+						},
+						"angularVelocity": 0,
+						"linearDamping": 0,
+						"angularDamping": 0,
+						"allowSleep": true,
+						"awake": true,
+						"fixedRotation": false,
+						"bullet": false,
+						"active": true,
+						"gravityScale": 1
+					},
+					"fixtures": [
+						{
+							"name": "BoxFixture",
+							"friction": 0.05,
+							"restitution": 0.05,
+							"density": 2,
+							"isSensor": false,
+							"shape": {
+								"vertexDependency": "",
+								"vertices": [ -1, 1, -1, -1, 1, -1, 1, 1 ],
+								"shapeType": "Polygon",
+								"radius": 1,
+								"position": {
+									"x": 0,
+									"y": 0
+								}
+							}
+						}
+					]
+				}
+			},
+			{
+				"class": "Transform",
+				"position": {
+					"x": 0,
+					"y": 12
+				},
+				"z": 0,
+				"angle": 0
+			},
+			{
+				"class": "SpriteGraphics",
+				"spriteBuilderDependency": "",
+				"spriteData": {
+					"name": null,
+					"width": 2,
+					"height": 2,
+					"origin": {
+						"x": 1,
+						"y": 1
+					},
+					"texture": "default.png",
+					"color": {
+						"r": 1,
+						"g": 1,
+						"b": 1,
+						"a": 1
+					}
+				}
+			}
+		],
+		"componentDependencies": []
+	},
+	{
+		"dependencies": [],
+		"prefabName": "",
+		"name": null,
+		"components": [
+			{
+				"class": "Physics",
+				"bodyBuilderDependency": "",
+				"bodyData": {
+					"bodyDef": {
+						"type": "StaticBody",
+						"position": {
+							"x": 0,
+							"y": -4
+						},
+						"angle": 0,
+						"linearVelocity": {
+							"x": 0,
+							"y": 0
+						},
+						"angularVelocity": 0,
+						"linearDamping": 0,
+						"angularDamping": 0,
+						"allowSleep": true,
+						"awake": true,
+						"fixedRotation": false,
+						"bullet": false,
+						"active": true,
+						"gravityScale": 1
+					},
+					"fixtures": [
+						{
+							"name": "BoxFixture",
+							"friction": 0.05,
+							"restitution": 0.05,
+							"density": 2,
+							"isSensor": false,
+							"shape": {
+								"vertexDependency": "",
+								"vertices": [ -1, 1, -1, -1, 1, -1, 1, 1 ],
+								"shapeType": "Polygon",
+								"radius": 1,
+								"position": {
+									"x": 0,
+									"y": 0
+								}
+							}
+						}
+					]
+				}
+			},
+			{
+				"class": "Transform",
+				"position": {
+					"x": 0,
+					"y": -4
+				},
+				"z": 0,
+				"angle": 0
+			},
+			{
+				"class": "SpriteGraphics",
+				"spriteBuilderDependency": "",
+				"spriteData": {
+					"name": null,
+					"width": 2,
+					"height": 2,
+					"origin": {
+						"x": 1,
+						"y": 1
+					},
+					"texture": "default.png",
+					"color": {
+						"r": 1,
+						"g": 1,
+						"b": 1,
+						"a": 1
+					}
+				}
+			}
+		],
+		"componentDependencies": []
+	},
+	{
+		"dependencies": [],
+		"prefabName": "",
+		"name": null,
+		"components": [
+			{
+				"class": "Physics",
+				"bodyBuilderDependency": "",
+				"bodyData": {
+					"bodyDef": {
+						"type": "StaticBody",
+						"position": {
+							"x": 2,
+							"y": 12
+						},
+						"angle": 0,
+						"linearVelocity": {
+							"x": 0,
+							"y": 0
+						},
+						"angularVelocity": 0,
+						"linearDamping": 0,
+						"angularDamping": 0,
+						"allowSleep": true,
+						"awake": true,
+						"fixedRotation": false,
+						"bullet": false,
+						"active": true,
+						"gravityScale": 1
+					},
+					"fixtures": [
+						{
+							"name": "BoxFixture",
+							"friction": 0.05,
+							"restitution": 0.05,
+							"density": 2,
+							"isSensor": false,
+							"shape": {
+								"vertexDependency": "",
+								"vertices": [ -1, 1, -1, -1, 1, -1, 1, 1 ],
+								"shapeType": "Polygon",
+								"radius": 1,
+								"position": {
+									"x": 0,
+									"y": 0
+								}
+							}
+						}
+					]
+				}
+			},
+			{
+				"class": "Transform",
+				"position": {
+					"x": 2,
+					"y": 12
+				},
+				"z": 0,
+				"angle": 0
+			},
+			{
+				"class": "SpriteGraphics",
+				"spriteBuilderDependency": "",
+				"spriteData": {
+					"name": null,
+					"width": 2,
+					"height": 2,
+					"origin": {
+						"x": 1,
+						"y": 1
+					},
+					"texture": "default.png",
+					"color": {
+						"r": 1,
+						"g": 1,
+						"b": 1,
+						"a": 1
+					}
+				}
+			}
+		],
+		"componentDependencies": []
+	},
+	{
+		"dependencies": [],
+		"prefabName": "",
+		"name": null,
+		"components": [
+			{
+				"class": "Physics",
+				"bodyBuilderDependency": "",
+				"bodyData": {
+					"bodyDef": {
+						"type": "StaticBody",
+						"position": {
+							"x": 2,
+							"y": -4
+						},
+						"angle": 0,
+						"linearVelocity": {
+							"x": 0,
+							"y": 0
+						},
+						"angularVelocity": 0,
+						"linearDamping": 0,
+						"angularDamping": 0,
+						"allowSleep": true,
+						"awake": true,
+						"fixedRotation": false,
+						"bullet": false,
+						"active": true,
+						"gravityScale": 1
+					},
+					"fixtures": [
+						{
+							"name": "BoxFixture",
+							"friction": 0.05,
+							"restitution": 0.05,
+							"density": 2,
+							"isSensor": false,
+							"shape": {
+								"vertexDependency": "",
+								"vertices": [ -1, 1, -1, -1, 1, -1, 1, 1 ],
+								"shapeType": "Polygon",
+								"radius": 1,
+								"position": {
+									"x": 0,
+									"y": 0
+								}
+							}
+						}
+					]
+				}
+			},
+			{
+				"class": "Transform",
+				"position": {
+					"x": 2,
+					"y": -4
+				},
+				"z": 0,
+				"angle": 0
+			},
+			{
+				"class": "SpriteGraphics",
+				"spriteBuilderDependency": "",
+				"spriteData": {
+					"name": null,
+					"width": 2,
+					"height": 2,
+					"origin": {
+						"x": 1,
+						"y": 1
+					},
+					"texture": "default.png",
+					"color": {
+						"r": 1,
+						"g": 1,
+						"b": 1,
+						"a": 1
+					}
+				}
+			}
+		],
+		"componentDependencies": []
+	},
+	{
+		"dependencies": [],
+		"prefabName": "",
+		"name": null,
+		"components": [
+			{
+				"class": "Physics",
+				"bodyBuilderDependency": "",
+				"bodyData": {
+					"bodyDef": {
+						"type": "StaticBody",
+						"position": {
+							"x": 4,
+							"y": 12
+						},
+						"angle": 0,
+						"linearVelocity": {
+							"x": 0,
+							"y": 0
+						},
+						"angularVelocity": 0,
+						"linearDamping": 0,
+						"angularDamping": 0,
+						"allowSleep": true,
+						"awake": true,
+						"fixedRotation": false,
+						"bullet": false,
+						"active": true,
+						"gravityScale": 1
+					},
+					"fixtures": [
+						{
+							"name": "BoxFixture",
+							"friction": 0.05,
+							"restitution": 0.05,
+							"density": 2,
+							"isSensor": false,
+							"shape": {
+								"vertexDependency": "",
+								"vertices": [ -1, 1, -1, -1, 1, -1, 1, 1 ],
+								"shapeType": "Polygon",
+								"radius": 1,
+								"position": {
+									"x": 0,
+									"y": 0
+								}
+							}
+						}
+					]
+				}
+			},
+			{
+				"class": "Transform",
+				"position": {
+					"x": 4,
+					"y": 12
+				},
+				"z": 0,
+				"angle": 0
+			},
+			{
+				"class": "SpriteGraphics",
+				"spriteBuilderDependency": "",
+				"spriteData": {
+					"name": null,
+					"width": 2,
+					"height": 2,
+					"origin": {
+						"x": 1,
+						"y": 1
+					},
+					"texture": "default.png",
+					"color": {
+						"r": 1,
+						"g": 1,
+						"b": 1,
+						"a": 1
+					}
+				}
+			}
+		],
+		"componentDependencies": []
+	},
+	{
+		"dependencies": [],
+		"prefabName": "",
+		"name": null,
+		"components": [
+			{
+				"class": "Physics",
+				"bodyBuilderDependency": "",
+				"bodyData": {
+					"bodyDef": {
+						"type": "StaticBody",
+						"position": {
+							"x": 4,
+							"y": -4
+						},
+						"angle": 0,
+						"linearVelocity": {
+							"x": 0,
+							"y": 0
+						},
+						"angularVelocity": 0,
+						"linearDamping": 0,
+						"angularDamping": 0,
+						"allowSleep": true,
+						"awake": true,
+						"fixedRotation": false,
+						"bullet": false,
+						"active": true,
+						"gravityScale": 1
+					},
+					"fixtures": [
+						{
+							"name": "BoxFixture",
+							"friction": 0.05,
+							"restitution": 0.05,
+							"density": 2,
+							"isSensor": false,
+							"shape": {
+								"vertexDependency": "",
+								"vertices": [ -1, 1, -1, -1, 1, -1, 1, 1 ],
+								"shapeType": "Polygon",
+								"radius": 1,
+								"position": {
+									"x": 0,
+									"y": 0
+								}
+							}
+						}
+					]
+				}
+			},
+			{
+				"class": "Transform",
+				"position": {
+					"x": 4,
+					"y": -4
+				},
+				"z": 0,
+				"angle": 0
+			},
+			{
+				"class": "SpriteGraphics",
+				"spriteBuilderDependency": "",
+				"spriteData": {
+					"name": null,
+					"width": 2,
+					"height": 2,
+					"origin": {
+						"x": 1,
+						"y": 1
+					},
+					"texture": "default.png",
+					"color": {
+						"r": 1,
+						"g": 1,
+						"b": 1,
+						"a": 1
+					}
+				}
+			}
+		],
+		"componentDependencies": []
+	},
+	{
+		"dependencies": [],
+		"prefabName": "",
+		"name": null,
+		"components": [
+			{
+				"class": "Physics",
+				"bodyBuilderDependency": "",
+				"bodyData": {
+					"bodyDef": {
+						"type": "StaticBody",
+						"position": {
+							"x": 6,
+							"y": 12
+						},
+						"angle": 0,
+						"linearVelocity": {
+							"x": 0,
+							"y": 0
+						},
+						"angularVelocity": 0,
+						"linearDamping": 0,
+						"angularDamping": 0,
+						"allowSleep": true,
+						"awake": true,
+						"fixedRotation": false,
+						"bullet": false,
+						"active": true,
+						"gravityScale": 1
+					},
+					"fixtures": [
+						{
+							"name": "BoxFixture",
+							"friction": 0.05,
+							"restitution": 0.05,
+							"density": 2,
+							"isSensor": false,
+							"shape": {
+								"vertexDependency": "",
+								"vertices": [ -1, 1, -1, -1, 1, -1, 1, 1 ],
+								"shapeType": "Polygon",
+								"radius": 1,
+								"position": {
+									"x": 0,
+									"y": 0
+								}
+							}
+						}
+					]
+				}
+			},
+			{
+				"class": "Transform",
+				"position": {
+					"x": 6,
+					"y": 12
+				},
+				"z": 0,
+				"angle": 0
+			},
+			{
+				"class": "SpriteGraphics",
+				"spriteBuilderDependency": "",
+				"spriteData": {
+					"name": null,
+					"width": 2,
+					"height": 2,
+					"origin": {
+						"x": 1,
+						"y": 1
+					},
+					"texture": "default.png",
+					"color": {
+						"r": 1,
+						"g": 1,
+						"b": 1,
+						"a": 1
+					}
+				}
+			}
+		],
+		"componentDependencies": []
+	},
+	{
+		"dependencies": [],
+		"prefabName": "",
+		"name": null,
+		"components": [
+			{
+				"class": "Physics",
+				"bodyBuilderDependency": "",
+				"bodyData": {
+					"bodyDef": {
+						"type": "StaticBody",
+						"position": {
+							"x": 6,
+							"y": -4
+						},
+						"angle": 0,
+						"linearVelocity": {
+							"x": 0,
+							"y": 0
+						},
+						"angularVelocity": 0,
+						"linearDamping": 0,
+						"angularDamping": 0,
+						"allowSleep": true,
+						"awake": true,
+						"fixedRotation": false,
+						"bullet": false,
+						"active": true,
+						"gravityScale": 1
+					},
+					"fixtures": [
+						{
+							"name": "BoxFixture",
+							"friction": 0.05,
+							"restitution": 0.05,
+							"density": 2,
+							"isSensor": false,
+							"shape": {
+								"vertexDependency": "",
+								"vertices": [ -1, 1, -1, -1, 1, -1, 1, 1 ],
+								"shapeType": "Polygon",
+								"radius": 1,
+								"position": {
+									"x": 0,
+									"y": 0
+								}
+							}
+						}
+					]
+				}
+			},
+			{
+				"class": "Transform",
+				"position": {
+					"x": 6,
+					"y": -4
+				},
+				"z": 0,
+				"angle": 0
+			},
+			{
+				"class": "SpriteGraphics",
+				"spriteBuilderDependency": "",
+				"spriteData": {
+					"name": null,
+					"width": 2,
+					"height": 2,
+					"origin": {
+						"x": 1,
+						"y": 1
+					},
+					"texture": "default.png",
+					"color": {
+						"r": 1,
+						"g": 1,
+						"b": 1,
+						"a": 1
+					}
+				}
+			}
+		],
+		"componentDependencies": []
+	},
+	{
+		"dependencies": [],
+		"prefabName": "",
+		"name": null,
+		"components": [
+			{
+				"class": "Physics",
+				"bodyBuilderDependency": "",
+				"bodyData": {
+					"bodyDef": {
+						"type": "StaticBody",
+						"position": {
+							"x": 8,
+							"y": 12
+						},
+						"angle": 0,
+						"linearVelocity": {
+							"x": 0,
+							"y": 0
+						},
+						"angularVelocity": 0,
+						"linearDamping": 0,
+						"angularDamping": 0,
+						"allowSleep": true,
+						"awake": true,
+						"fixedRotation": false,
+						"bullet": false,
+						"active": true,
+						"gravityScale": 1
+					},
+					"fixtures": [
+						{
+							"name": "BoxFixture",
+							"friction": 0.05,
+							"restitution": 0.05,
+							"density": 2,
+							"isSensor": false,
+							"shape": {
+								"vertexDependency": "",
+								"vertices": [ -1, 1, -1, -1, 1, -1, 1, 1 ],
+								"shapeType": "Polygon",
+								"radius": 1,
+								"position": {
+									"x": 0,
+									"y": 0
+								}
+							}
+						}
+					]
+				}
+			},
+			{
+				"class": "Transform",
+				"position": {
+					"x": 8,
+					"y": 12
+				},
+				"z": 0,
+				"angle": 0
+			},
+			{
+				"class": "SpriteGraphics",
+				"spriteBuilderDependency": "",
+				"spriteData": {
+					"name": null,
+					"width": 2,
+					"height": 2,
+					"origin": {
+						"x": 1,
+						"y": 1
+					},
+					"texture": "default.png",
+					"color": {
+						"r": 1,
+						"g": 1,
+						"b": 1,
+						"a": 1
+					}
+				}
+			}
+		],
+		"componentDependencies": []
+	},
+	{
+		"dependencies": [],
+		"prefabName": "",
+		"name": null,
+		"components": [
+			{
+				"class": "Physics",
+				"bodyBuilderDependency": "",
+				"bodyData": {
+					"bodyDef": {
+						"type": "StaticBody",
+						"position": {
+							"x": 8,
+							"y": -4
+						},
+						"angle": 0,
+						"linearVelocity": {
+							"x": 0,
+							"y": 0
+						},
+						"angularVelocity": 0,
+						"linearDamping": 0,
+						"angularDamping": 0,
+						"allowSleep": true,
+						"awake": true,
+						"fixedRotation": false,
+						"bullet": false,
+						"active": true,
+						"gravityScale": 1
+					},
+					"fixtures": [
+						{
+							"name": "BoxFixture",
+							"friction": 0.05,
+							"restitution": 0.05,
+							"density": 2,
+							"isSensor": false,
+							"shape": {
+								"vertexDependency": "",
+								"vertices": [ -1, 1, -1, -1, 1, -1, 1, 1 ],
+								"shapeType": "Polygon",
+								"radius": 1,
+								"position": {
+									"x": 0,
+									"y": 0
+								}
+							}
+						}
+					]
+				}
+			},
+			{
+				"class": "Transform",
+				"position": {
+					"x": 8,
+					"y": -4
+				},
+				"z": 0,
+				"angle": 0
+			},
+			{
+				"class": "SpriteGraphics",
+				"spriteBuilderDependency": "",
+				"spriteData": {
+					"name": null,
+					"width": 2,
+					"height": 2,
+					"origin": {
+						"x": 1,
+						"y": 1
+					},
+					"texture": "default.png",
+					"color": {
+						"r": 1,
+						"g": 1,
+						"b": 1,
+						"a": 1
+					}
+				}
+			}
+		],
+		"componentDependencies": []
+	},
+	{
+		"dependencies": [],
+		"prefabName": "",
+		"name": null,
+		"components": [
+			{
+				"class": "Physics",
+				"bodyBuilderDependency": "",
+				"bodyData": {
+					"bodyDef": {
+						"type": "StaticBody",
+						"position": {
+							"x": 10,
+							"y": 12
+						},
+						"angle": 0,
+						"linearVelocity": {
+							"x": 0,
+							"y": 0
+						},
+						"angularVelocity": 0,
+						"linearDamping": 0,
+						"angularDamping": 0,
+						"allowSleep": true,
+						"awake": true,
+						"fixedRotation": false,
+						"bullet": false,
+						"active": true,
+						"gravityScale": 1
+					},
+					"fixtures": [
+						{
+							"name": "BoxFixture",
+							"friction": 0.05,
+							"restitution": 0.05,
+							"density": 2,
+							"isSensor": false,
+							"shape": {
+								"vertexDependency": "",
+								"vertices": [ -1, 1, -1, -1, 1, -1, 1, 1 ],
+								"shapeType": "Polygon",
+								"radius": 1,
+								"position": {
+									"x": 0,
+									"y": 0
+								}
+							}
+						}
+					]
+				}
+			},
+			{
+				"class": "Transform",
+				"position": {
+					"x": 10,
+					"y": 12
+				},
+				"z": 0,
+				"angle": 0
+			},
+			{
+				"class": "SpriteGraphics",
+				"spriteBuilderDependency": "",
+				"spriteData": {
+					"name": null,
+					"width": 2,
+					"height": 2,
+					"origin": {
+						"x": 1,
+						"y": 1
+					},
+					"texture": "default.png",
+					"color": {
+						"r": 1,
+						"g": 1,
+						"b": 1,
+						"a": 1
+					}
+				}
+			}
+		],
+		"componentDependencies": []
+	},
+	{
+		"dependencies": [],
+		"prefabName": "",
+		"name": null,
+		"components": [
+			{
+				"class": "Physics",
+				"bodyBuilderDependency": "",
+				"bodyData": {
+					"bodyDef": {
+						"type": "StaticBody",
+						"position": {
+							"x": 10,
+							"y": -4
+						},
+						"angle": 0,
+						"linearVelocity": {
+							"x": 0,
+							"y": 0
+						},
+						"angularVelocity": 0,
+						"linearDamping": 0,
+						"angularDamping": 0,
+						"allowSleep": true,
+						"awake": true,
+						"fixedRotation": false,
+						"bullet": false,
+						"active": true,
+						"gravityScale": 1
+					},
+					"fixtures": [
+						{
+							"name": "BoxFixture",
+							"friction": 0.05,
+							"restitution": 0.05,
+							"density": 2,
+							"isSensor": false,
+							"shape": {
+								"vertexDependency": "",
+								"vertices": [ -1, 1, -1, -1, 1, -1, 1, 1 ],
+								"shapeType": "Polygon",
+								"radius": 1,
+								"position": {
+									"x": 0,
+									"y": 0
+								}
+							}
+						}
+					]
+				}
+			},
+			{
+				"class": "Transform",
+				"position": {
+					"x": 10,
+					"y": -4
+				},
+				"z": 0,
+				"angle": 0
+			},
+			{
+				"class": "SpriteGraphics",
+				"spriteBuilderDependency": "",
+				"spriteData": {
+					"name": null,
+					"width": 2,
+					"height": 2,
+					"origin": {
+						"x": 1,
+						"y": 1
+					},
+					"texture": "default.png",
+					"color": {
+						"r": 1,
+						"g": 1,
+						"b": 1,
+						"a": 1
+					}
+				}
+			}
+		],
+		"componentDependencies": []
+	},
+	{
+		"dependencies": [],
+		"prefabName": "",
+		"name": null,
+		"components": [
+			{
+				"class": "Physics",
+				"bodyBuilderDependency": "",
+				"bodyData": {
+					"bodyDef": {
+						"type": "StaticBody",
+						"position": {
+							"x": 12,
+							"y": 12
+						},
+						"angle": 0,
+						"linearVelocity": {
+							"x": 0,
+							"y": 0
+						},
+						"angularVelocity": 0,
+						"linearDamping": 0,
+						"angularDamping": 0,
+						"allowSleep": true,
+						"awake": true,
+						"fixedRotation": false,
+						"bullet": false,
+						"active": true,
+						"gravityScale": 1
+					},
+					"fixtures": [
+						{
+							"name": "BoxFixture",
+							"friction": 0.05,
+							"restitution": 0.05,
+							"density": 2,
+							"isSensor": false,
+							"shape": {
+								"vertexDependency": "",
+								"vertices": [ -1, 1, -1, -1, 1, -1, 1, 1 ],
+								"shapeType": "Polygon",
+								"radius": 1,
+								"position": {
+									"x": 0,
+									"y": 0
+								}
+							}
+						}
+					]
+				}
+			},
+			{
+				"class": "Transform",
+				"position": {
+					"x": 12,
+					"y": 12
+				},
+				"z": 0,
+				"angle": 0
+			},
+			{
+				"class": "SpriteGraphics",
+				"spriteBuilderDependency": "",
+				"spriteData": {
+					"name": null,
+					"width": 2,
+					"height": 2,
+					"origin": {
+						"x": 1,
+						"y": 1
+					},
+					"texture": "default.png",
+					"color": {
+						"r": 1,
+						"g": 1,
+						"b": 1,
+						"a": 1
+					}
+				}
+			}
+		],
+		"componentDependencies": []
+	},
+	{
+		"dependencies": [],
+		"prefabName": "",
+		"name": null,
+		"components": [
+			{
+				"class": "Physics",
+				"bodyBuilderDependency": "",
+				"bodyData": {
+					"bodyDef": {
+						"type": "StaticBody",
+						"position": {
+							"x": 12,
+							"y": -4
+						},
+						"angle": 0,
+						"linearVelocity": {
+							"x": 0,
+							"y": 0
+						},
+						"angularVelocity": 0,
+						"linearDamping": 0,
+						"angularDamping": 0,
+						"allowSleep": true,
+						"awake": true,
+						"fixedRotation": false,
+						"bullet": false,
+						"active": true,
+						"gravityScale": 1
+					},
+					"fixtures": [
+						{
+							"name": "BoxFixture",
+							"friction": 0.05,
+							"restitution": 0.05,
+							"density": 2,
+							"isSensor": false,
+							"shape": {
+								"vertexDependency": "",
+								"vertices": [ -1, 1, -1, -1, 1, -1, 1, 1 ],
+								"shapeType": "Polygon",
+								"radius": 1,
+								"position": {
+									"x": 0,
+									"y": 0
+								}
+							}
+						}
+					]
+				}
+			},
+			{
+				"class": "Transform",
+				"position": {
+					"x": 12,
+					"y": -4
+				},
+				"z": 0,
+				"angle": 0
+			},
+			{
+				"class": "SpriteGraphics",
+				"spriteBuilderDependency": "",
+				"spriteData": {
+					"name": null,
+					"width": 2,
+					"height": 2,
+					"origin": {
+						"x": 1,
+						"y": 1
+					},
+					"texture": "default.png",
+					"color": {
+						"r": 1,
+						"g": 1,
+						"b": 1,
+						"a": 1
+					}
+				}
+			}
+		],
+		"componentDependencies": []
+	},
+	{
+		"dependencies": [],
+		"prefabName": "",
+		"name": null,
+		"components": [
+			{
+				"class": "Physics",
+				"bodyBuilderDependency": "",
+				"bodyData": {
+					"bodyDef": {
+						"type": "StaticBody",
+						"position": {
+							"x": 14,
+							"y": 12
+						},
+						"angle": 0,
+						"linearVelocity": {
+							"x": 0,
+							"y": 0
+						},
+						"angularVelocity": 0,
+						"linearDamping": 0,
+						"angularDamping": 0,
+						"allowSleep": true,
+						"awake": true,
+						"fixedRotation": false,
+						"bullet": false,
+						"active": true,
+						"gravityScale": 1
+					},
+					"fixtures": [
+						{
+							"name": "BoxFixture",
+							"friction": 0.05,
+							"restitution": 0.05,
+							"density": 2,
+							"isSensor": false,
+							"shape": {
+								"vertexDependency": "",
+								"vertices": [ -1, 1, -1, -1, 1, -1, 1, 1 ],
+								"shapeType": "Polygon",
+								"radius": 1,
+								"position": {
+									"x": 0,
+									"y": 0
+								}
+							}
+						}
+					]
+				}
+			},
+			{
+				"class": "Transform",
+				"position": {
+					"x": 14,
+					"y": 12
+				},
+				"z": 0,
+				"angle": 0
+			},
+			{
+				"class": "SpriteGraphics",
+				"spriteBuilderDependency": "",
+				"spriteData": {
+					"name": null,
+					"width": 2,
+					"height": 2,
+					"origin": {
+						"x": 1,
+						"y": 1
+					},
+					"texture": "default.png",
+					"color": {
+						"r": 1,
+						"g": 1,
+						"b": 1,
+						"a": 1
+					}
+				}
+			}
+		],
+		"componentDependencies": []
+	},
+	{
+		"dependencies": [],
+		"prefabName": "",
+		"name": null,
+		"components": [
+			{
+				"class": "Physics",
+				"bodyBuilderDependency": "",
+				"bodyData": {
+					"bodyDef": {
+						"type": "StaticBody",
+						"position": {
+							"x": 14,
+							"y": -4
+						},
+						"angle": 0,
+						"linearVelocity": {
+							"x": 0,
+							"y": 0
+						},
+						"angularVelocity": 0,
+						"linearDamping": 0,
+						"angularDamping": 0,
+						"allowSleep": true,
+						"awake": true,
+						"fixedRotation": false,
+						"bullet": false,
+						"active": true,
+						"gravityScale": 1
+					},
+					"fixtures": [
+						{
+							"name": "BoxFixture",
+							"friction": 0.05,
+							"restitution": 0.05,
+							"density": 2,
+							"isSensor": false,
+							"shape": {
+								"vertexDependency": "",
+								"vertices": [ -1, 1, -1, -1, 1, -1, 1, 1 ],
+								"shapeType": "Polygon",
+								"radius": 1,
+								"position": {
+									"x": 0,
+									"y": 0
+								}
+							}
+						}
+					]
+				}
+			},
+			{
+				"class": "Transform",
+				"position": {
+					"x": 14,
+					"y": -4
+				},
+				"z": 0,
+				"angle": 0
+			},
+			{
+				"class": "SpriteGraphics",
+				"spriteBuilderDependency": "",
+				"spriteData": {
+					"name": null,
+					"width": 2,
+					"height": 2,
+					"origin": {
+						"x": 1,
+						"y": 1
+					},
+					"texture": "default.png",
+					"color": {
+						"r": 1,
+						"g": 1,
+						"b": 1,
+						"a": 1
+					}
+				}
+			}
+		],
+		"componentDependencies": []
+	},
+	{
+		"dependencies": [],
+		"prefabName": "",
+		"name": null,
+		"components": [
+			{
+				"class": "Physics",
+				"bodyBuilderDependency": "",
+				"bodyData": {
+					"bodyDef": {
+						"type": "StaticBody",
+						"position": {
+							"x": 16,
+							"y": 12
+						},
+						"angle": 0,
+						"linearVelocity": {
+							"x": 0,
+							"y": 0
+						},
+						"angularVelocity": 0,
+						"linearDamping": 0,
+						"angularDamping": 0,
+						"allowSleep": true,
+						"awake": true,
+						"fixedRotation": false,
+						"bullet": false,
+						"active": true,
+						"gravityScale": 1
+					},
+					"fixtures": [
+						{
+							"name": "BoxFixture",
+							"friction": 0.05,
+							"restitution": 0.05,
+							"density": 2,
+							"isSensor": false,
+							"shape": {
+								"vertexDependency": "",
+								"vertices": [ -1, 1, -1, -1, 1, -1, 1, 1 ],
+								"shapeType": "Polygon",
+								"radius": 1,
+								"position": {
+									"x": 0,
+									"y": 0
+								}
+							}
+						}
+					]
+				}
+			},
+			{
+				"class": "Transform",
+				"position": {
+					"x": 16,
+					"y": 12
+				},
+				"z": 0,
+				"angle": 0
+			},
+			{
+				"class": "SpriteGraphics",
+				"spriteBuilderDependency": "",
+				"spriteData": {
+					"name": null,
+					"width": 2,
+					"height": 2,
+					"origin": {
+						"x": 1,
+						"y": 1
+					},
+					"texture": "default.png",
+					"color": {
+						"r": 1,
+						"g": 1,
+						"b": 1,
+						"a": 1
+					}
+				}
+			}
+		],
+		"componentDependencies": []
+	},
+	{
+		"dependencies": [],
+		"prefabName": "",
+		"name": null,
+		"components": [
+			{
+				"class": "Physics",
+				"bodyBuilderDependency": "",
+				"bodyData": {
+					"bodyDef": {
+						"type": "StaticBody",
+						"position": {
+							"x": 16,
+							"y": -4
+						},
+						"angle": 0,
+						"linearVelocity": {
+							"x": 0,
+							"y": 0
+						},
+						"angularVelocity": 0,
+						"linearDamping": 0,
+						"angularDamping": 0,
+						"allowSleep": true,
+						"awake": true,
+						"fixedRotation": false,
+						"bullet": false,
+						"active": true,
+						"gravityScale": 1
+					},
+					"fixtures": [
+						{
+							"name": "BoxFixture",
+							"friction": 0.05,
+							"restitution": 0.05,
+							"density": 2,
+							"isSensor": false,
+							"shape": {
+								"vertexDependency": "",
+								"vertices": [ -1, 1, -1, -1, 1, -1, 1, 1 ],
+								"shapeType": "Polygon",
+								"radius": 1,
+								"position": {
+									"x": 0,
+									"y": 0
+								}
+							}
+						}
+					]
+				}
+			},
+			{
+				"class": "Transform",
+				"position": {
+					"x": 16,
+					"y": -4
+				},
+				"z": 0,
+				"angle": 0
+			},
+			{
+				"class": "SpriteGraphics",
+				"spriteBuilderDependency": "",
+				"spriteData": {
+					"name": null,
+					"width": 2,
+					"height": 2,
+					"origin": {
+						"x": 1,
+						"y": 1
+					},
+					"texture": "default.png",
+					"color": {
+						"r": 1,
+						"g": 1,
+						"b": 1,
+						"a": 1
+					}
+				}
+			}
+		],
+		"componentDependencies": []
+	},
+	{
+		"dependencies": [],
+		"prefabName": "",
+		"name": null,
+		"components": [
+			{
+				"class": "Physics",
+				"bodyBuilderDependency": "",
+				"bodyData": {
+					"bodyDef": {
+						"type": "StaticBody",
+						"position": {
+							"x": 18,
+							"y": 12
+						},
+						"angle": 0,
+						"linearVelocity": {
+							"x": 0,
+							"y": 0
+						},
+						"angularVelocity": 0,
+						"linearDamping": 0,
+						"angularDamping": 0,
+						"allowSleep": true,
+						"awake": true,
+						"fixedRotation": false,
+						"bullet": false,
+						"active": true,
+						"gravityScale": 1
+					},
+					"fixtures": [
+						{
+							"name": "BoxFixture",
+							"friction": 0.05,
+							"restitution": 0.05,
+							"density": 2,
+							"isSensor": false,
+							"shape": {
+								"vertexDependency": "",
+								"vertices": [ -1, 1, -1, -1, 1, -1, 1, 1 ],
+								"shapeType": "Polygon",
+								"radius": 1,
+								"position": {
+									"x": 0,
+									"y": 0
+								}
+							}
+						}
+					]
+				}
+			},
+			{
+				"class": "Transform",
+				"position": {
+					"x": 18,
+					"y": 12
+				},
+				"z": 0,
+				"angle": 0
+			},
+			{
+				"class": "SpriteGraphics",
+				"spriteBuilderDependency": "",
+				"spriteData": {
+					"name": null,
+					"width": 2,
+					"height": 2,
+					"origin": {
+						"x": 1,
+						"y": 1
+					},
+					"texture": "default.png",
+					"color": {
+						"r": 1,
+						"g": 1,
+						"b": 1,
+						"a": 1
+					}
+				}
+			}
+		],
+		"componentDependencies": []
+	},
+	{
+		"dependencies": [],
+		"prefabName": "",
+		"name": null,
+		"components": [
+			{
+				"class": "Physics",
+				"bodyBuilderDependency": "",
+				"bodyData": {
+					"bodyDef": {
+						"type": "StaticBody",
+						"position": {
+							"x": 18,
+							"y": -4
+						},
+						"angle": 0,
+						"linearVelocity": {
+							"x": 0,
+							"y": 0
+						},
+						"angularVelocity": 0,
+						"linearDamping": 0,
+						"angularDamping": 0,
+						"allowSleep": true,
+						"awake": true,
+						"fixedRotation": false,
+						"bullet": false,
+						"active": true,
+						"gravityScale": 1
+					},
+					"fixtures": [
+						{
+							"name": "BoxFixture",
+							"friction": 0.05,
+							"restitution": 0.05,
+							"density": 2,
+							"isSensor": false,
+							"shape": {
+								"vertexDependency": "",
+								"vertices": [ -1, 1, -1, -1, 1, -1, 1, 1 ],
+								"shapeType": "Polygon",
+								"radius": 1,
+								"position": {
+									"x": 0,
+									"y": 0
+								}
+							}
+						}
+					]
+				}
+			},
+			{
+				"class": "Transform",
+				"position": {
+					"x": 18,
+					"y": -4
+				},
+				"z": 0,
+				"angle": 0
+			},
+			{
+				"class": "SpriteGraphics",
+				"spriteBuilderDependency": "",
+				"spriteData": {
+					"name": null,
+					"width": 2,
+					"height": 2,
+					"origin": {
+						"x": 1,
+						"y": 1
+					},
+					"texture": "default.png",
+					"color": {
+						"r": 1,
+						"g": 1,
+						"b": 1,
+						"a": 1
+					}
+				}
+			}
+		],
+		"componentDependencies": []
+	},
+	{
+		"dependencies": [],
+		"prefabName": "",
+		"name": null,
+		"components": [
+			{
+				"class": "Physics",
+				"bodyBuilderDependency": "",
+				"bodyData": {
+					"bodyDef": {
+						"type": "StaticBody",
+						"position": {
+							"x": 20,
+							"y": 12
+						},
+						"angle": 0,
+						"linearVelocity": {
+							"x": 0,
+							"y": 0
+						},
+						"angularVelocity": 0,
+						"linearDamping": 0,
+						"angularDamping": 0,
+						"allowSleep": true,
+						"awake": true,
+						"fixedRotation": false,
+						"bullet": false,
+						"active": true,
+						"gravityScale": 1
+					},
+					"fixtures": [
+						{
+							"name": "BoxFixture",
+							"friction": 0.05,
+							"restitution": 0.05,
+							"density": 2,
+							"isSensor": false,
+							"shape": {
+								"vertexDependency": "",
+								"vertices": [ -1, 1, -1, -1, 1, -1, 1, 1 ],
+								"shapeType": "Polygon",
+								"radius": 1,
+								"position": {
+									"x": 0,
+									"y": 0
+								}
+							}
+						}
+					]
+				}
+			},
+			{
+				"class": "Transform",
+				"position": {
+					"x": 20,
+					"y": 12
+				},
+				"z": 0,
+				"angle": 0
+			},
+			{
+				"class": "SpriteGraphics",
+				"spriteBuilderDependency": "",
+				"spriteData": {
+					"name": null,
+					"width": 2,
+					"height": 2,
+					"origin": {
+						"x": 1,
+						"y": 1
+					},
+					"texture": "default.png",
+					"color": {
+						"r": 1,
+						"g": 1,
+						"b": 1,
+						"a": 1
+					}
+				}
+			}
+		],
+		"componentDependencies": []
+	},
+	{
+		"dependencies": [],
+		"prefabName": "",
+		"name": null,
+		"components": [
+			{
+				"class": "Physics",
+				"bodyBuilderDependency": "",
+				"bodyData": {
+					"bodyDef": {
+						"type": "StaticBody",
+						"position": {
+							"x": 20,
+							"y": -4
+						},
+						"angle": 0,
+						"linearVelocity": {
+							"x": 0,
+							"y": 0
+						},
+						"angularVelocity": 0,
+						"linearDamping": 0,
+						"angularDamping": 0,
+						"allowSleep": true,
+						"awake": true,
+						"fixedRotation": false,
+						"bullet": false,
+						"active": true,
+						"gravityScale": 1
+					},
+					"fixtures": [
+						{
+							"name": "BoxFixture",
+							"friction": 0.05,
+							"restitution": 0.05,
+							"density": 2,
+							"isSensor": false,
+							"shape": {
+								"vertexDependency": "",
+								"vertices": [ -1, 1, -1, -1, 1, -1, 1, 1 ],
+								"shapeType": "Polygon",
+								"radius": 1,
+								"position": {
+									"x": 0,
+									"y": 0
+								}
+							}
+						}
+					]
+				}
+			},
+			{
+				"class": "Transform",
+				"position": {
+					"x": 20,
+					"y": -4
+				},
+				"z": 0,
+				"angle": 0
+			},
+			{
+				"class": "SpriteGraphics",
+				"spriteBuilderDependency": "",
+				"spriteData": {
+					"name": null,
+					"width": 2,
+					"height": 2,
+					"origin": {
+						"x": 1,
+						"y": 1
+					},
+					"texture": "default.png",
+					"color": {
+						"r": 1,
+						"g": 1,
+						"b": 1,
+						"a": 1
+					}
+				}
+			}
+		],
+		"componentDependencies": []
+	},
+	{
+		"dependencies": [],
+		"prefabName": "",
+		"name": null,
+		"components": [
+			{
+				"class": "Physics",
+				"bodyBuilderDependency": "",
+				"bodyData": {
+					"bodyDef": {
+						"type": "StaticBody",
+						"position": {
+							"x": 22,
+							"y": 12
+						},
+						"angle": 0,
+						"linearVelocity": {
+							"x": 0,
+							"y": 0
+						},
+						"angularVelocity": 0,
+						"linearDamping": 0,
+						"angularDamping": 0,
+						"allowSleep": true,
+						"awake": true,
+						"fixedRotation": false,
+						"bullet": false,
+						"active": true,
+						"gravityScale": 1
+					},
+					"fixtures": [
+						{
+							"name": "BoxFixture",
+							"friction": 0.05,
+							"restitution": 0.05,
+							"density": 2,
+							"isSensor": false,
+							"shape": {
+								"vertexDependency": "",
+								"vertices": [ -1, 1, -1, -1, 1, -1, 1, 1 ],
+								"shapeType": "Polygon",
+								"radius": 1,
+								"position": {
+									"x": 0,
+									"y": 0
+								}
+							}
+						}
+					]
+				}
+			},
+			{
+				"class": "Transform",
+				"position": {
+					"x": 22,
+					"y": 12
+				},
+				"z": 0,
+				"angle": 0
+			},
+			{
+				"class": "SpriteGraphics",
+				"spriteBuilderDependency": "",
+				"spriteData": {
+					"name": null,
+					"width": 2,
+					"height": 2,
+					"origin": {
+						"x": 1,
+						"y": 1
+					},
+					"texture": "default.png",
+					"color": {
+						"r": 1,
+						"g": 1,
+						"b": 1,
+						"a": 1
+					}
+				}
+			}
+		],
+		"componentDependencies": []
+	},
+	{
+		"dependencies": [],
+		"prefabName": "",
+		"name": null,
+		"components": [
+			{
+				"class": "Physics",
+				"bodyBuilderDependency": "",
+				"bodyData": {
+					"bodyDef": {
+						"type": "StaticBody",
+						"position": {
+							"x": 22,
+							"y": -4
+						},
+						"angle": 0,
+						"linearVelocity": {
+							"x": 0,
+							"y": 0
+						},
+						"angularVelocity": 0,
+						"linearDamping": 0,
+						"angularDamping": 0,
+						"allowSleep": true,
+						"awake": true,
+						"fixedRotation": false,
+						"bullet": false,
+						"active": true,
+						"gravityScale": 1
+					},
+					"fixtures": [
+						{
+							"name": "BoxFixture",
+							"friction": 0.05,
+							"restitution": 0.05,
+							"density": 2,
+							"isSensor": false,
+							"shape": {
+								"vertexDependency": "",
+								"vertices": [ -1, 1, -1, -1, 1, -1, 1, 1 ],
+								"shapeType": "Polygon",
+								"radius": 1,
+								"position": {
+									"x": 0,
+									"y": 0
+								}
+							}
+						}
+					]
+				}
+			},
+			{
+				"class": "Transform",
+				"position": {
+					"x": 22,
+					"y": -4
+				},
+				"z": 0,
+				"angle": 0
+			},
+			{
+				"class": "SpriteGraphics",
+				"spriteBuilderDependency": "",
+				"spriteData": {
+					"name": null,
+					"width": 2,
+					"height": 2,
+					"origin": {
+						"x": 1,
+						"y": 1
+					},
+					"texture": "default.png",
+					"color": {
+						"r": 1,
+						"g": 1,
+						"b": 1,
+						"a": 1
+					}
+				}
+			}
+		],
+		"componentDependencies": []
+	},
+	{
+		"dependencies": [],
+		"prefabName": "",
+		"name": null,
+		"components": [
+			{
+				"class": "Physics",
+				"bodyBuilderDependency": "",
+				"bodyData": {
+					"bodyDef": {
+						"type": "StaticBody",
+						"position": {
+							"x": -4,
+							"y": -4
+						},
+						"angle": 0,
+						"linearVelocity": {
+							"x": 0,
+							"y": 0
+						},
+						"angularVelocity": 0,
+						"linearDamping": 0,
+						"angularDamping": 0,
+						"allowSleep": true,
+						"awake": true,
+						"fixedRotation": false,
+						"bullet": false,
+						"active": true,
+						"gravityScale": 1
+					},
+					"fixtures": [
+						{
+							"name": "BoxFixture",
+							"friction": 0.05,
+							"restitution": 0.05,
+							"density": 2,
+							"isSensor": false,
+							"shape": {
+								"vertexDependency": "",
+								"vertices": [ -1, 1, -1, -1, 1, -1, 1, 1 ],
+								"shapeType": "Polygon",
+								"radius": 1,
+								"position": {
+									"x": 0,
+									"y": 0
+								}
+							}
+						}
+					]
+				}
+			},
+			{
+				"class": "Transform",
+				"position": {
+					"x": -4,
+					"y": -4
+				},
+				"z": 0,
+				"angle": 0
+			},
+			{
+				"class": "SpriteGraphics",
+				"spriteBuilderDependency": "",
+				"spriteData": {
+					"name": null,
+					"width": 2,
+					"height": 2,
+					"origin": {
+						"x": 1,
+						"y": 1
+					},
+					"texture": "default.png",
+					"color": {
+						"r": 1,
+						"g": 1,
+						"b": 1,
+						"a": 1
+					}
+				}
+			}
+		],
+		"componentDependencies": []
+	},
+	{
+		"dependencies": [],
+		"prefabName": "",
+		"name": null,
+		"components": [
+			{
+				"class": "Physics",
+				"bodyBuilderDependency": "",
+				"bodyData": {
+					"bodyDef": {
+						"type": "StaticBody",
+						"position": {
+							"x": 22,
+							"y": -4
+						},
+						"angle": 0,
+						"linearVelocity": {
+							"x": 0,
+							"y": 0
+						},
+						"angularVelocity": 0,
+						"linearDamping": 0,
+						"angularDamping": 0,
+						"allowSleep": true,
+						"awake": true,
+						"fixedRotation": false,
+						"bullet": false,
+						"active": true,
+						"gravityScale": 1
+					},
+					"fixtures": [
+						{
+							"name": "BoxFixture",
+							"friction": 0.05,
+							"restitution": 0.05,
+							"density": 2,
+							"isSensor": false,
+							"shape": {
+								"vertexDependency": "",
+								"vertices": [ -1, 1, -1, -1, 1, -1, 1, 1 ],
+								"shapeType": "Polygon",
+								"radius": 1,
+								"position": {
+									"x": 0,
+									"y": 0
+								}
+							}
+						}
+					]
+				}
+			},
+			{
+				"class": "Transform",
+				"position": {
+					"x": 22,
+					"y": -4
+				},
+				"z": 0,
+				"angle": 0
+			},
+			{
+				"class": "SpriteGraphics",
+				"spriteBuilderDependency": "",
+				"spriteData": {
+					"name": null,
+					"width": 2,
+					"height": 2,
+					"origin": {
+						"x": 1,
+						"y": 1
+					},
+					"texture": "default.png",
+					"color": {
+						"r": 1,
+						"g": 1,
+						"b": 1,
+						"a": 1
+					}
+				}
+			}
+		],
+		"componentDependencies": []
+	},
+	{
+		"dependencies": [],
+		"prefabName": "",
+		"name": null,
+		"components": [
+			{
+				"class": "Physics",
+				"bodyBuilderDependency": "",
+				"bodyData": {
+					"bodyDef": {
+						"type": "StaticBody",
+						"position": {
+							"x": -4,
+							"y": -2
+						},
+						"angle": 0,
+						"linearVelocity": {
+							"x": 0,
+							"y": 0
+						},
+						"angularVelocity": 0,
+						"linearDamping": 0,
+						"angularDamping": 0,
+						"allowSleep": true,
+						"awake": true,
+						"fixedRotation": false,
+						"bullet": false,
+						"active": true,
+						"gravityScale": 1
+					},
+					"fixtures": [
+						{
+							"name": "BoxFixture",
+							"friction": 0.05,
+							"restitution": 0.05,
+							"density": 2,
+							"isSensor": false,
+							"shape": {
+								"vertexDependency": "",
+								"vertices": [ -1, 1, -1, -1, 1, -1, 1, 1 ],
+								"shapeType": "Polygon",
+								"radius": 1,
+								"position": {
+									"x": 0,
+									"y": 0
+								}
+							}
+						}
+					]
+				}
+			},
+			{
+				"class": "Transform",
+				"position": {
+					"x": -4,
+					"y": -2
+				},
+				"z": 0,
+				"angle": 0
+			},
+			{
+				"class": "SpriteGraphics",
+				"spriteBuilderDependency": "",
+				"spriteData": {
+					"name": null,
+					"width": 2,
+					"height": 2,
+					"origin": {
+						"x": 1,
+						"y": 1
+					},
+					"texture": "default.png",
+					"color": {
+						"r": 1,
+						"g": 1,
+						"b": 1,
+						"a": 1
+					}
+				}
+			}
+		],
+		"componentDependencies": []
+	},
+	{
+		"dependencies": [],
+		"prefabName": "",
+		"name": null,
+		"components": [
+			{
+				"class": "Physics",
+				"bodyBuilderDependency": "",
+				"bodyData": {
+					"bodyDef": {
+						"type": "StaticBody",
+						"position": {
+							"x": 22,
+							"y": -2
+						},
+						"angle": 0,
+						"linearVelocity": {
+							"x": 0,
+							"y": 0
+						},
+						"angularVelocity": 0,
+						"linearDamping": 0,
+						"angularDamping": 0,
+						"allowSleep": true,
+						"awake": true,
+						"fixedRotation": false,
+						"bullet": false,
+						"active": true,
+						"gravityScale": 1
+					},
+					"fixtures": [
+						{
+							"name": "BoxFixture",
+							"friction": 0.05,
+							"restitution": 0.05,
+							"density": 2,
+							"isSensor": false,
+							"shape": {
+								"vertexDependency": "",
+								"vertices": [ -1, 1, -1, -1, 1, -1, 1, 1 ],
+								"shapeType": "Polygon",
+								"radius": 1,
+								"position": {
+									"x": 0,
+									"y": 0
+								}
+							}
+						}
+					]
+				}
+			},
+			{
+				"class": "Transform",
+				"position": {
+					"x": 22,
+					"y": -2
+				},
+				"z": 0,
+				"angle": 0
+			},
+			{
+				"class": "SpriteGraphics",
+				"spriteBuilderDependency": "",
+				"spriteData": {
+					"name": null,
+					"width": 2,
+					"height": 2,
+					"origin": {
+						"x": 1,
+						"y": 1
+					},
+					"texture": "default.png",
+					"color": {
+						"r": 1,
+						"g": 1,
+						"b": 1,
+						"a": 1
+					}
+				}
+			}
+		],
+		"componentDependencies": []
+	},
+	{
+		"dependencies": [],
+		"prefabName": "",
+		"name": null,
+		"components": [
+			{
+				"class": "Physics",
+				"bodyBuilderDependency": "",
+				"bodyData": {
+					"bodyDef": {
+						"type": "StaticBody",
+						"position": {
+							"x": -4,
+							"y": 0
+						},
+						"angle": 0,
+						"linearVelocity": {
+							"x": 0,
+							"y": 0
+						},
+						"angularVelocity": 0,
+						"linearDamping": 0,
+						"angularDamping": 0,
+						"allowSleep": true,
+						"awake": true,
+						"fixedRotation": false,
+						"bullet": false,
+						"active": true,
+						"gravityScale": 1
+					},
+					"fixtures": [
+						{
+							"name": "BoxFixture",
+							"friction": 0.05,
+							"restitution": 0.05,
+							"density": 2,
+							"isSensor": false,
+							"shape": {
+								"vertexDependency": "",
+								"vertices": [ -1, 1, -1, -1, 1, -1, 1, 1 ],
+								"shapeType": "Polygon",
+								"radius": 1,
+								"position": {
+									"x": 0,
+									"y": 0
+								}
+							}
+						}
+					]
+				}
+			},
+			{
+				"class": "Transform",
+				"position": {
+					"x": -4,
+					"y": 0
+				},
+				"z": 0,
+				"angle": 0
+			},
+			{
+				"class": "SpriteGraphics",
+				"spriteBuilderDependency": "",
+				"spriteData": {
+					"name": null,
+					"width": 2,
+					"height": 2,
+					"origin": {
+						"x": 1,
+						"y": 1
+					},
+					"texture": "default.png",
+					"color": {
+						"r": 1,
+						"g": 1,
+						"b": 1,
+						"a": 1
+					}
+				}
+			}
+		],
+		"componentDependencies": []
+	},
+	{
+		"dependencies": [],
+		"prefabName": "",
+		"name": null,
+		"components": [
+			{
+				"class": "Physics",
+				"bodyBuilderDependency": "",
+				"bodyData": {
+					"bodyDef": {
+						"type": "StaticBody",
+						"position": {
+							"x": 22,
+							"y": 0
+						},
+						"angle": 0,
+						"linearVelocity": {
+							"x": 0,
+							"y": 0
+						},
+						"angularVelocity": 0,
+						"linearDamping": 0,
+						"angularDamping": 0,
+						"allowSleep": true,
+						"awake": true,
+						"fixedRotation": false,
+						"bullet": false,
+						"active": true,
+						"gravityScale": 1
+					},
+					"fixtures": [
+						{
+							"name": "BoxFixture",
+							"friction": 0.05,
+							"restitution": 0.05,
+							"density": 2,
+							"isSensor": false,
+							"shape": {
+								"vertexDependency": "",
+								"vertices": [ -1, 1, -1, -1, 1, -1, 1, 1 ],
+								"shapeType": "Polygon",
+								"radius": 1,
+								"position": {
+									"x": 0,
+									"y": 0
+								}
+							}
+						}
+					]
+				}
+			},
+			{
+				"class": "Transform",
+				"position": {
+					"x": 22,
+					"y": 0
+				},
+				"z": 0,
+				"angle": 0
+			},
+			{
+				"class": "SpriteGraphics",
+				"spriteBuilderDependency": "",
+				"spriteData": {
+					"name": null,
+					"width": 2,
+					"height": 2,
+					"origin": {
+						"x": 1,
+						"y": 1
+					},
+					"texture": "default.png",
+					"color": {
+						"r": 1,
+						"g": 1,
+						"b": 1,
+						"a": 1
+					}
+				}
+			}
+		],
+		"componentDependencies": []
+	},
+	{
+		"dependencies": [],
+		"prefabName": "",
+		"name": null,
+		"components": [
+			{
+				"class": "Physics",
+				"bodyBuilderDependency": "",
+				"bodyData": {
+					"bodyDef": {
+						"type": "StaticBody",
+						"position": {
+							"x": -4,
+							"y": 2
+						},
+						"angle": 0,
+						"linearVelocity": {
+							"x": 0,
+							"y": 0
+						},
+						"angularVelocity": 0,
+						"linearDamping": 0,
+						"angularDamping": 0,
+						"allowSleep": true,
+						"awake": true,
+						"fixedRotation": false,
+						"bullet": false,
+						"active": true,
+						"gravityScale": 1
+					},
+					"fixtures": [
+						{
+							"name": "BoxFixture",
+							"friction": 0.05,
+							"restitution": 0.05,
+							"density": 2,
+							"isSensor": false,
+							"shape": {
+								"vertexDependency": "",
+								"vertices": [ -1, 1, -1, -1, 1, -1, 1, 1 ],
+								"shapeType": "Polygon",
+								"radius": 1,
+								"position": {
+									"x": 0,
+									"y": 0
+								}
+							}
+						}
+					]
+				}
+			},
+			{
+				"class": "Transform",
+				"position": {
+					"x": -4,
+					"y": 2
+				},
+				"z": 0,
+				"angle": 0
+			},
+			{
+				"class": "SpriteGraphics",
+				"spriteBuilderDependency": "",
+				"spriteData": {
+					"name": null,
+					"width": 2,
+					"height": 2,
+					"origin": {
+						"x": 1,
+						"y": 1
+					},
+					"texture": "default.png",
+					"color": {
+						"r": 1,
+						"g": 1,
+						"b": 1,
+						"a": 1
+					}
+				}
+			}
+		],
+		"componentDependencies": []
+	},
+	{
+		"dependencies": [],
+		"prefabName": "",
+		"name": null,
+		"components": [
+			{
+				"class": "Physics",
+				"bodyBuilderDependency": "",
+				"bodyData": {
+					"bodyDef": {
+						"type": "StaticBody",
+						"position": {
+							"x": 22,
+							"y": 2
+						},
+						"angle": 0,
+						"linearVelocity": {
+							"x": 0,
+							"y": 0
+						},
+						"angularVelocity": 0,
+						"linearDamping": 0,
+						"angularDamping": 0,
+						"allowSleep": true,
+						"awake": true,
+						"fixedRotation": false,
+						"bullet": false,
+						"active": true,
+						"gravityScale": 1
+					},
+					"fixtures": [
+						{
+							"name": "BoxFixture",
+							"friction": 0.05,
+							"restitution": 0.05,
+							"density": 2,
+							"isSensor": false,
+							"shape": {
+								"vertexDependency": "",
+								"vertices": [ -1, 1, -1, -1, 1, -1, 1, 1 ],
+								"shapeType": "Polygon",
+								"radius": 1,
+								"position": {
+									"x": 0,
+									"y": 0
+								}
+							}
+						}
+					]
+				}
+			},
+			{
+				"class": "Transform",
+				"position": {
+					"x": 22,
+					"y": 2
+				},
+				"z": 0,
+				"angle": 0
+			},
+			{
+				"class": "SpriteGraphics",
+				"spriteBuilderDependency": "",
+				"spriteData": {
+					"name": null,
+					"width": 2,
+					"height": 2,
+					"origin": {
+						"x": 1,
+						"y": 1
+					},
+					"texture": "default.png",
+					"color": {
+						"r": 1,
+						"g": 1,
+						"b": 1,
+						"a": 1
+					}
+				}
+			}
+		],
+		"componentDependencies": []
+	},
+	{
+		"dependencies": [],
+		"prefabName": "",
+		"name": null,
+		"components": [
+			{
+				"class": "Physics",
+				"bodyBuilderDependency": "",
+				"bodyData": {
+					"bodyDef": {
+						"type": "StaticBody",
+						"position": {
+							"x": -4,
+							"y": 4
+						},
+						"angle": 0,
+						"linearVelocity": {
+							"x": 0,
+							"y": 0
+						},
+						"angularVelocity": 0,
+						"linearDamping": 0,
+						"angularDamping": 0,
+						"allowSleep": true,
+						"awake": true,
+						"fixedRotation": false,
+						"bullet": false,
+						"active": true,
+						"gravityScale": 1
+					},
+					"fixtures": [
+						{
+							"name": "BoxFixture",
+							"friction": 0.05,
+							"restitution": 0.05,
+							"density": 2,
+							"isSensor": false,
+							"shape": {
+								"vertexDependency": "",
+								"vertices": [ -1, 1, -1, -1, 1, -1, 1, 1 ],
+								"shapeType": "Polygon",
+								"radius": 1,
+								"position": {
+									"x": 0,
+									"y": 0
+								}
+							}
+						}
+					]
+				}
+			},
+			{
+				"class": "Transform",
+				"position": {
+					"x": -4,
+					"y": 4
+				},
+				"z": 0,
+				"angle": 0
+			},
+			{
+				"class": "SpriteGraphics",
+				"spriteBuilderDependency": "",
+				"spriteData": {
+					"name": null,
+					"width": 2,
+					"height": 2,
+					"origin": {
+						"x": 1,
+						"y": 1
+					},
+					"texture": "default.png",
+					"color": {
+						"r": 1,
+						"g": 1,
+						"b": 1,
+						"a": 1
+					}
+				}
+			}
+		],
+		"componentDependencies": []
+	},
+	{
+		"dependencies": [],
+		"prefabName": "",
+		"name": null,
+		"components": [
+			{
+				"class": "Physics",
+				"bodyBuilderDependency": "",
+				"bodyData": {
+					"bodyDef": {
+						"type": "StaticBody",
+						"position": {
+							"x": 22,
+							"y": 4
+						},
+						"angle": 0,
+						"linearVelocity": {
+							"x": 0,
+							"y": 0
+						},
+						"angularVelocity": 0,
+						"linearDamping": 0,
+						"angularDamping": 0,
+						"allowSleep": true,
+						"awake": true,
+						"fixedRotation": false,
+						"bullet": false,
+						"active": true,
+						"gravityScale": 1
+					},
+					"fixtures": [
+						{
+							"name": "BoxFixture",
+							"friction": 0.05,
+							"restitution": 0.05,
+							"density": 2,
+							"isSensor": false,
+							"shape": {
+								"vertexDependency": "",
+								"vertices": [ -1, 1, -1, -1, 1, -1, 1, 1 ],
+								"shapeType": "Polygon",
+								"radius": 1,
+								"position": {
+									"x": 0,
+									"y": 0
+								}
+							}
+						}
+					]
+				}
+			},
+			{
+				"class": "Transform",
+				"position": {
+					"x": 22,
+					"y": 4
+				},
+				"z": 0,
+				"angle": 0
+			},
+			{
+				"class": "SpriteGraphics",
+				"spriteBuilderDependency": "",
+				"spriteData": {
+					"name": null,
+					"width": 2,
+					"height": 2,
+					"origin": {
+						"x": 1,
+						"y": 1
+					},
+					"texture": "default.png",
+					"color": {
+						"r": 1,
+						"g": 1,
+						"b": 1,
+						"a": 1
+					}
+				}
+			}
+		],
+		"componentDependencies": []
+	},
+	{
+		"dependencies": [],
+		"prefabName": "",
+		"name": null,
+		"components": [
+			{
+				"class": "Physics",
+				"bodyBuilderDependency": "",
+				"bodyData": {
+					"bodyDef": {
+						"type": "StaticBody",
+						"position": {
+							"x": -4,
+							"y": 6
+						},
+						"angle": 0,
+						"linearVelocity": {
+							"x": 0,
+							"y": 0
+						},
+						"angularVelocity": 0,
+						"linearDamping": 0,
+						"angularDamping": 0,
+						"allowSleep": true,
+						"awake": true,
+						"fixedRotation": false,
+						"bullet": false,
+						"active": true,
+						"gravityScale": 1
+					},
+					"fixtures": [
+						{
+							"name": "BoxFixture",
+							"friction": 0.05,
+							"restitution": 0.05,
+							"density": 2,
+							"isSensor": false,
+							"shape": {
+								"vertexDependency": "",
+								"vertices": [ -1, 1, -1, -1, 1, -1, 1, 1 ],
+								"shapeType": "Polygon",
+								"radius": 1,
+								"position": {
+									"x": 0,
+									"y": 0
+								}
+							}
+						}
+					]
+				}
+			},
+			{
+				"class": "Transform",
+				"position": {
+					"x": -4,
+					"y": 6
+				},
+				"z": 0,
+				"angle": 0
+			},
+			{
+				"class": "SpriteGraphics",
+				"spriteBuilderDependency": "",
+				"spriteData": {
+					"name": null,
+					"width": 2,
+					"height": 2,
+					"origin": {
+						"x": 1,
+						"y": 1
+					},
+					"texture": "default.png",
+					"color": {
+						"r": 1,
+						"g": 1,
+						"b": 1,
+						"a": 1
+					}
+				}
+			}
+		],
+		"componentDependencies": []
+	},
+	{
+		"dependencies": [],
+		"prefabName": "",
+		"name": null,
+		"components": [
+			{
+				"class": "Physics",
+				"bodyBuilderDependency": "",
+				"bodyData": {
+					"bodyDef": {
+						"type": "StaticBody",
+						"position": {
+							"x": 22,
+							"y": 6
+						},
+						"angle": 0,
+						"linearVelocity": {
+							"x": 0,
+							"y": 0
+						},
+						"angularVelocity": 0,
+						"linearDamping": 0,
+						"angularDamping": 0,
+						"allowSleep": true,
+						"awake": true,
+						"fixedRotation": false,
+						"bullet": false,
+						"active": true,
+						"gravityScale": 1
+					},
+					"fixtures": [
+						{
+							"name": "BoxFixture",
+							"friction": 0.05,
+							"restitution": 0.05,
+							"density": 2,
+							"isSensor": false,
+							"shape": {
+								"vertexDependency": "",
+								"vertices": [ -1, 1, -1, -1, 1, -1, 1, 1 ],
+								"shapeType": "Polygon",
+								"radius": 1,
+								"position": {
+									"x": 0,
+									"y": 0
+								}
+							}
+						}
+					]
+				}
+			},
+			{
+				"class": "Transform",
+				"position": {
+					"x": 22,
+					"y": 6
+				},
+				"z": 0,
+				"angle": 0
+			},
+			{
+				"class": "SpriteGraphics",
+				"spriteBuilderDependency": "",
+				"spriteData": {
+					"name": null,
+					"width": 2,
+					"height": 2,
+					"origin": {
+						"x": 1,
+						"y": 1
+					},
+					"texture": "default.png",
+					"color": {
+						"r": 1,
+						"g": 1,
+						"b": 1,
+						"a": 1
+					}
+				}
+			}
+		],
+		"componentDependencies": []
+	},
+	{
+		"dependencies": [],
+		"prefabName": "",
+		"name": null,
+		"components": [
+			{
+				"class": "Physics",
+				"bodyBuilderDependency": "",
+				"bodyData": {
+					"bodyDef": {
+						"type": "StaticBody",
+						"position": {
+							"x": -4,
+							"y": 8
+						},
+						"angle": 0,
+						"linearVelocity": {
+							"x": 0,
+							"y": 0
+						},
+						"angularVelocity": 0,
+						"linearDamping": 0,
+						"angularDamping": 0,
+						"allowSleep": true,
+						"awake": true,
+						"fixedRotation": false,
+						"bullet": false,
+						"active": true,
+						"gravityScale": 1
+					},
+					"fixtures": [
+						{
+							"name": "BoxFixture",
+							"friction": 0.05,
+							"restitution": 0.05,
+							"density": 2,
+							"isSensor": false,
+							"shape": {
+								"vertexDependency": "",
+								"vertices": [ -1, 1, -1, -1, 1, -1, 1, 1 ],
+								"shapeType": "Polygon",
+								"radius": 1,
+								"position": {
+									"x": 0,
+									"y": 0
+								}
+							}
+						}
+					]
+				}
+			},
+			{
+				"class": "Transform",
+				"position": {
+					"x": -4,
+					"y": 8
+				},
+				"z": 0,
+				"angle": 0
+			},
+			{
+				"class": "SpriteGraphics",
+				"spriteBuilderDependency": "",
+				"spriteData": {
+					"name": null,
+					"width": 2,
+					"height": 2,
+					"origin": {
+						"x": 1,
+						"y": 1
+					},
+					"texture": "default.png",
+					"color": {
+						"r": 1,
+						"g": 1,
+						"b": 1,
+						"a": 1
+					}
+				}
+			}
+		],
+		"componentDependencies": []
+	},
+	{
+		"dependencies": [],
+		"prefabName": "",
+		"name": null,
+		"components": [
+			{
+				"class": "Physics",
+				"bodyBuilderDependency": "",
+				"bodyData": {
+					"bodyDef": {
+						"type": "StaticBody",
+						"position": {
+							"x": 22,
+							"y": 8
+						},
+						"angle": 0,
+						"linearVelocity": {
+							"x": 0,
+							"y": 0
+						},
+						"angularVelocity": 0,
+						"linearDamping": 0,
+						"angularDamping": 0,
+						"allowSleep": true,
+						"awake": true,
+						"fixedRotation": false,
+						"bullet": false,
+						"active": true,
+						"gravityScale": 1
+					},
+					"fixtures": [
+						{
+							"name": "BoxFixture",
+							"friction": 0.05,
+							"restitution": 0.05,
+							"density": 2,
+							"isSensor": false,
+							"shape": {
+								"vertexDependency": "",
+								"vertices": [ -1, 1, -1, -1, 1, -1, 1, 1 ],
+								"shapeType": "Polygon",
+								"radius": 1,
+								"position": {
+									"x": 0,
+									"y": 0
+								}
+							}
+						}
+					]
+				}
+			},
+			{
+				"class": "Transform",
+				"position": {
+					"x": 22,
+					"y": 8
+				},
+				"z": 0,
+				"angle": 0
+			},
+			{
+				"class": "SpriteGraphics",
+				"spriteBuilderDependency": "",
+				"spriteData": {
+					"name": null,
+					"width": 2,
+					"height": 2,
+					"origin": {
+						"x": 1,
+						"y": 1
+					},
+					"texture": "default.png",
+					"color": {
+						"r": 1,
+						"g": 1,
+						"b": 1,
+						"a": 1
+					}
+				}
+			}
+		],
+		"componentDependencies": []
+	},
+	{
+		"dependencies": [],
+		"prefabName": "",
+		"name": null,
+		"components": [
+			{
+				"class": "Physics",
+				"bodyBuilderDependency": "",
+				"bodyData": {
+					"bodyDef": {
+						"type": "StaticBody",
+						"position": {
+							"x": -4,
+							"y": 10
+						},
+						"angle": 0,
+						"linearVelocity": {
+							"x": 0,
+							"y": 0
+						},
+						"angularVelocity": 0,
+						"linearDamping": 0,
+						"angularDamping": 0,
+						"allowSleep": true,
+						"awake": true,
+						"fixedRotation": false,
+						"bullet": false,
+						"active": true,
+						"gravityScale": 1
+					},
+					"fixtures": [
+						{
+							"name": "BoxFixture",
+							"friction": 0.05,
+							"restitution": 0.05,
+							"density": 2,
+							"isSensor": false,
+							"shape": {
+								"vertexDependency": "",
+								"vertices": [ -1, 1, -1, -1, 1, -1, 1, 1 ],
+								"shapeType": "Polygon",
+								"radius": 1,
+								"position": {
+									"x": 0,
+									"y": 0
+								}
+							}
+						}
+					]
+				}
+			},
+			{
+				"class": "Transform",
+				"position": {
+					"x": -4,
+					"y": 10
+				},
+				"z": 0,
+				"angle": 0
+			},
+			{
+				"class": "SpriteGraphics",
+				"spriteBuilderDependency": "",
+				"spriteData": {
+					"name": null,
+					"width": 2,
+					"height": 2,
+					"origin": {
+						"x": 1,
+						"y": 1
+					},
+					"texture": "default.png",
+					"color": {
+						"r": 1,
+						"g": 1,
+						"b": 1,
+						"a": 1
+					}
+				}
+			}
+		],
+		"componentDependencies": []
+	},
+	{
+		"dependencies": [],
+		"prefabName": "",
+		"name": null,
+		"components": [
+			{
+				"class": "Physics",
+				"bodyBuilderDependency": "",
+				"bodyData": {
+					"bodyDef": {
+						"type": "StaticBody",
+						"position": {
+							"x": 22,
+							"y": 10
+						},
+						"angle": 0,
+						"linearVelocity": {
+							"x": 0,
+							"y": 0
+						},
+						"angularVelocity": 0,
+						"linearDamping": 0,
+						"angularDamping": 0,
+						"allowSleep": true,
+						"awake": true,
+						"fixedRotation": false,
+						"bullet": false,
+						"active": true,
+						"gravityScale": 1
+					},
+					"fixtures": [
+						{
+							"name": "BoxFixture",
+							"friction": 0.05,
+							"restitution": 0.05,
+							"density": 2,
+							"isSensor": false,
+							"shape": {
+								"vertexDependency": "",
+								"vertices": [ -1, 1, -1, -1, 1, -1, 1, 1 ],
+								"shapeType": "Polygon",
+								"radius": 1,
+								"position": {
+									"x": 0,
+									"y": 0
+								}
+							}
+						}
+					]
+				}
+			},
+			{
+				"class": "Transform",
+				"position": {
+					"x": 22,
+					"y": 10
+				},
+				"z": 0,
+				"angle": 0
+			},
+			{
+				"class": "SpriteGraphics",
+				"spriteBuilderDependency": "",
+				"spriteData": {
+					"name": null,
+					"width": 2,
+					"height": 2,
+					"origin": {
+						"x": 1,
+						"y": 1
+					},
+					"texture": "default.png",
+					"color": {
+						"r": 1,
+						"g": 1,
+						"b": 1,
+						"a": 1
+					}
+				}
+			}
+		],
+		"componentDependencies": []
+	},
+	{
+		"dependencies": [],
+		"prefabName": "",
+		"name": null,
+		"components": [
+			{
+				"class": "Physics",
+				"bodyBuilderDependency": "",
+				"bodyData": {
+					"bodyDef": {
+						"type": "StaticBody",
+						"position": {
+							"x": -4,
+							"y": 12
+						},
+						"angle": 0,
+						"linearVelocity": {
+							"x": 0,
+							"y": 0
+						},
+						"angularVelocity": 0,
+						"linearDamping": 0,
+						"angularDamping": 0,
+						"allowSleep": true,
+						"awake": true,
+						"fixedRotation": false,
+						"bullet": false,
+						"active": true,
+						"gravityScale": 1
+					},
+					"fixtures": [
+						{
+							"name": "BoxFixture",
+							"friction": 0.05,
+							"restitution": 0.05,
+							"density": 2,
+							"isSensor": false,
+							"shape": {
+								"vertexDependency": "",
+								"vertices": [ -1, 1, -1, -1, 1, -1, 1, 1 ],
+								"shapeType": "Polygon",
+								"radius": 1,
+								"position": {
+									"x": 0,
+									"y": 0
+								}
+							}
+						}
+					]
+				}
+			},
+			{
+				"class": "Transform",
+				"position": {
+					"x": -4,
+					"y": 12
+				},
+				"z": 0,
+				"angle": 0
+			},
+			{
+				"class": "SpriteGraphics",
+				"spriteBuilderDependency": "",
+				"spriteData": {
+					"name": null,
+					"width": 2,
+					"height": 2,
+					"origin": {
+						"x": 1,
+						"y": 1
+					},
+					"texture": "default.png",
+					"color": {
+						"r": 1,
+						"g": 1,
+						"b": 1,
+						"a": 1
+					}
+				}
+			}
+		],
+		"componentDependencies": []
+	},
+	{
+		"dependencies": [],
+		"prefabName": "",
+		"name": null,
+		"components": [
+			{
+				"class": "Physics",
+				"bodyBuilderDependency": "",
+				"bodyData": {
+					"bodyDef": {
+						"type": "StaticBody",
+						"position": {
+							"x": 22,
+							"y": 12
+						},
+						"angle": 0,
+						"linearVelocity": {
+							"x": 0,
+							"y": 0
+						},
+						"angularVelocity": 0,
+						"linearDamping": 0,
+						"angularDamping": 0,
+						"allowSleep": true,
+						"awake": true,
+						"fixedRotation": false,
+						"bullet": false,
+						"active": true,
+						"gravityScale": 1
+					},
+					"fixtures": [
+						{
+							"name": "BoxFixture",
+							"friction": 0.05,
+							"restitution": 0.05,
+							"density": 2,
+							"isSensor": false,
+							"shape": {
+								"vertexDependency": "",
+								"vertices": [ -1, 1, -1, -1, 1, -1, 1, 1 ],
+								"shapeType": "Polygon",
+								"radius": 1,
+								"position": {
+									"x": 0,
+									"y": 0
+								}
+							}
+						}
+					]
+				}
+			},
+			{
+				"class": "Transform",
+				"position": {
+					"x": 22,
+					"y": 12
+				},
+				"z": 0,
+				"angle": 0
+			},
+			{
+				"class": "SpriteGraphics",
+				"spriteBuilderDependency": "",
+				"spriteData": {
+					"name": null,
+					"width": 2,
+					"height": 2,
+					"origin": {
+						"x": 1,
+						"y": 1
+					},
+					"texture": "default.png",
+					"color": {
+						"r": 1,
+						"g": 1,
+						"b": 1,
+						"a": 1
+					}
+				}
+			}
+		],
+		"componentDependencies": []
+	},
+	{
+		"dependencies": [],
+		"prefabName": "",
+		"name": null,
+		"components": [
+			{
+				"class": "PhysicsController",
+				"maxLinearSpeed": 3.4,
+				"linearAccel": 0.4,
+				"maxAngularSpeed": 2.7,
+				"angularAccel": 0.5,
+				"controllerId": 0
+			},
+			{
+				"class": "Physics",
+				"bodyBuilderDependency": "",
+				"bodyData": {
+					"bodyDef": {
+						"type": "DynamicBody",
+						"position": {
+							"x": 7.3860226,
+							"y": 5.591535
+						},
+						"angle": 24.760809,
+						"linearVelocity": {
+							"x": 0,
+							"y": 0
+						},
+						"angularVelocity": 0,
+						"linearDamping": 2,
+						"angularDamping": 2,
+						"allowSleep": true,
+						"awake": true,
+						"fixedRotation": false,
+						"bullet": false,
+						"active": true,
+						"gravityScale": 1
+					},
+					"fixtures": [
+						{
+							"name": "PolygonFixture",
+							"friction": 0.8,
+							"restitution": 0.05,
+							"density": 0.5,
+							"isSensor": false,
+							"shape": {
+								"vertexDependency": "Snake Dome",
+								"vertices": [ 0, 0.54, -0.25, 0.4, -0.43, -0.28, -0.2, -0.6, 0.2, -0.6, 0.43, -0.28, 0.25, 0.4 ],
+								"shapeType": "Polygon",
+								"radius": 0.5,
+								"position": {
+									"x": 0,
+									"y": 0
+								}
+							}
+						}
+					]
+				}
+			},
+			{
+				"class": "ActionController",
+				"controllerId": 0,
+				"lungeForwardSpeed": 5,
+				"lungeBackwardSpeed": 3,
+				"lungeCoolDown": 1200
+			},
+			{
+				"class": "Transform",
+				"position": {
+					"x": 7.3860226,
+					"y": 5.591535
+				},
+				"z": 0,
+				"angle": 24.760809
+			},
+			{
+				"class": "Damager",
+				"damage": 13,
+				"coolDown": 1500
+			},
+			{
+				"class": "CameraFollower",
+				"tweenSpeed": 0.055,
+				"tweenCutoff": 0.00125
+			},
+			{
+				"class": "MeshGraphics",
+				"meshBuilderDependency": null,
+				"meshData": {
+					"vertexDependency": "Snake Dome",
+					"vertices": [ 0, 0.54, -0.25, 0.4, -0.43, -0.28, -0.2, -0.6, 0.2, -0.6, 0.43, -0.28, 0.25, 0.4 ],
+					"indices": [ 0, 1, 3, 1, 2, 3, 0, 3, 4, 0, 4, 6, 6, 4, 5 ],
+					"colors": [ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ],
+					"textureCoords": [ 0.25, 0.03711, 0.17285, 0.07422, 0.07422, 0.37402, 0.14844, 0.5, 0.34961, 0.5, 0.42383, 0.37402, 0.3252, 0.07422 ]
+				},
+				"xScale": 1,
+				"yScale": 1,
+				"textureName": "Snake.png"
+			}
+		],
+		"componentDependencies": []
+	},
+	{
+		"dependencies": [],
+		"prefabName": "",
+		"name": null,
+		"components": [
+			{
+				"class": "Physics",
+				"bodyBuilderDependency": "",
+				"bodyData": {
+					"bodyDef": {
+						"type": "DynamicBody",
+						"position": {
+							"x": 8.11642,
+							"y": 4.314997
+						},
+						"angle": -3.9837759,
+						"linearVelocity": {
+							"x": 0,
+							"y": 0
+						},
+						"angularVelocity": 0,
+						"linearDamping": 2,
+						"angularDamping": 2,
+						"allowSleep": true,
+						"awake": true,
+						"fixedRotation": false,
+						"bullet": false,
+						"active": true,
+						"gravityScale": 1
+					},
+					"fixtures": [
+						{
+							"name": "PolygonFixture",
+							"friction": 0.3,
+							"restitution": 0.05,
+							"density": 0.1,
+							"isSensor": false,
+							"shape": {
+								"vertexDependency": "Snake Bod Top",
+								"vertices": [ -0.1, 0.5, -0.2, 0.4, -0.18, 0, 0.18, 0, 0.2, 0.4, 0.1, 0.5 ],
+								"shapeType": "Polygon",
+								"radius": 0.5,
+								"position": {
+									"x": 0,
+									"y": 0
+								}
+							}
+						},
+						{
+							"name": "PolygonFixture",
+							"friction": 0.3,
+							"restitution": 0.05,
+							"density": 0.1,
+							"isSensor": false,
+							"shape": {
+								"vertexDependency": "Snake Bod Bottom",
+								"vertices": [ -0.18, 0, -0.2, -0.4, -0.1, -0.5, 0.1, -0.5, 0.2, -0.4, 0.18, 0 ],
+								"shapeType": "Polygon",
+								"radius": 0.5,
+								"position": {
+									"x": 0,
+									"y": 0
+								}
+							}
+						}
+					]
+				}
+			},
+			{
+				"class": "Transform",
+				"position": {
+					"x": 8.11642,
+					"y": 4.314997
+				},
+				"z": 0,
+				"angle": -3.9837759
+			},
+			{
+				"class": "MeshGraphics",
+				"meshBuilderDependency": null,
+				"meshData": {
+					"vertexDependency": "Snake Bod Mesh",
+					"vertices": [ -0.1, 0.5, -0.2, 0.4, -0.18, 0, 0.18, 0, 0.2, 0.4, 0.1, 0.5, -0.18, 0, -0.2, -0.4, -0.1, -0.5, 0.1, -0.5, 0.2, -0.4, 0.18, 0 ],
+					"indices": [ 0, 1, 2, 0, 2, 3, 0, 3, 5, 3, 4, 5, 6, 7, 8, 6, 8, 9, 6, 9, 11, 9, 10, 11 ],
+					"colors": [ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ],
+					"textureCoords": [ 0.69727, 0, 0.64843, 0.0625, 0.66309, 0.25, 0.83105, 0.25, 0.84961, 0.0625, 0.80078, 0, 0.66309, 0.25, 0.64843, 0.4375, 0.69727, 0.5, 0.80078, 0.5, 0.84961, 0.4375, 0.83105, 0.25 ]
+				},
+				"xScale": 1,
+				"yScale": 1,
+				"textureName": "Snake.png"
+			}
+		],
+		"componentDependencies": []
+	},
+	{
+		"dependencies": [],
+		"prefabName": "",
+		"name": null,
+		"components": [
+			{
+				"class": "Physics",
+				"bodyBuilderDependency": "",
+				"bodyData": {
+					"bodyDef": {
+						"type": "DynamicBody",
+						"position": {
+							"x": 8.487876,
+							"y": 2.5542405
+						},
+						"angle": 3.2058437,
+						"linearVelocity": {
+							"x": 0,
+							"y": 0
+						},
+						"angularVelocity": 0,
+						"linearDamping": 2,
+						"angularDamping": 2,
+						"allowSleep": true,
+						"awake": true,
+						"fixedRotation": false,
+						"bullet": false,
+						"active": true,
+						"gravityScale": 1
+					},
+					"fixtures": [
+						{
+							"name": "PolygonFixture",
+							"friction": 0.3,
+							"restitution": 0.05,
+							"density": 0.1,
+							"isSensor": false,
+							"shape": {
+								"vertexDependency": "Snake Bod Top",
+								"vertices": [ -0.1, 0.5, -0.2, 0.4, -0.18, 0, 0.18, 0, 0.2, 0.4, 0.1, 0.5 ],
+								"shapeType": "Polygon",
+								"radius": 0.5,
+								"position": {
+									"x": 0,
+									"y": 0
+								}
+							}
+						},
+						{
+							"name": "PolygonFixture",
+							"friction": 0.3,
+							"restitution": 0.05,
+							"density": 0.1,
+							"isSensor": false,
+							"shape": {
+								"vertexDependency": "Snake Bod Bottom",
+								"vertices": [ -0.18, 0, -0.2, -0.4, -0.1, -0.5, 0.1, -0.5, 0.2, -0.4, 0.18, 0 ],
+								"shapeType": "Polygon",
+								"radius": 0.5,
+								"position": {
+									"x": 0,
+									"y": 0
+								}
+							}
+						}
+					]
+				}
+			},
+			{
+				"class": "Transform",
+				"position": {
+					"x": 8.487876,
+					"y": 2.5542405
+				},
+				"z": 0,
+				"angle": 3.2058437
+			},
+			{
+				"class": "MeshGraphics",
+				"meshBuilderDependency": null,
+				"meshData": {
+					"vertexDependency": "Snake Bod Mesh",
+					"vertices": [ -0.1, 0.5, -0.2, 0.4, -0.18, 0, 0.18, 0, 0.2, 0.4, 0.1, 0.5, -0.18, 0, -0.2, -0.4, -0.1, -0.5, 0.1, -0.5, 0.2, -0.4, 0.18, 0 ],
+					"indices": [ 0, 1, 2, 0, 2, 3, 0, 3, 5, 3, 4, 5, 6, 7, 8, 6, 8, 9, 6, 9, 11, 9, 10, 11 ],
+					"colors": [ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ],
+					"textureCoords": [ 0.69727, 0, 0.64843, 0.0625, 0.66309, 0.25, 0.83105, 0.25, 0.84961, 0.0625, 0.80078, 0, 0.66309, 0.25, 0.64843, 0.4375, 0.69727, 0.5, 0.80078, 0.5, 0.84961, 0.4375, 0.83105, 0.25 ]
+				},
+				"xScale": 1,
+				"yScale": 1,
+				"textureName": "Snake.png"
+			}
+		],
+		"componentDependencies": []
+	},
+	{
+		"dependencies": [],
+		"prefabName": "",
+		"name": null,
+		"components": [
+			{
+				"class": "Physics",
+				"bodyBuilderDependency": "",
+				"bodyData": {
+					"bodyDef": {
+						"type": "DynamicBody",
+						"position": {
+							"x": 11.819371,
+							"y": 3.6919322
+						},
+						"angle": 2.4480422,
+						"linearVelocity": {
+							"x": 0,
+							"y": 0
+						},
+						"angularVelocity": 0,
+						"linearDamping": 2,
+						"angularDamping": 2,
+						"allowSleep": true,
+						"awake": true,
+						"fixedRotation": false,
+						"bullet": false,
+						"active": true,
+						"gravityScale": 1
+					},
+					"fixtures": [
+						{
+							"name": "PolygonFixture",
+							"friction": 0.3,
+							"restitution": 0.05,
+							"density": 0.1,
+							"isSensor": false,
+							"shape": {
+								"vertexDependency": "Snake Bod Top",
+								"vertices": [ -0.1, 0.5, -0.2, 0.4, -0.18, 0, 0.18, 0, 0.2, 0.4, 0.1, 0.5 ],
+								"shapeType": "Polygon",
+								"radius": 0.5,
+								"position": {
+									"x": 0,
+									"y": 0
+								}
+							}
+						},
+						{
+							"name": "PolygonFixture",
+							"friction": 0.3,
+							"restitution": 0.05,
+							"density": 0.1,
+							"isSensor": false,
+							"shape": {
+								"vertexDependency": "Snake Bod Bottom",
+								"vertices": [ -0.18, 0, -0.2, -0.4, -0.1, -0.5, 0.1, -0.5, 0.2, -0.4, 0.18, 0 ],
+								"shapeType": "Polygon",
+								"radius": 0.5,
+								"position": {
+									"x": 0,
+									"y": 0
+								}
+							}
+						}
+					]
+				}
+			},
+			{
+				"class": "Transform",
+				"position": {
+					"x": 11.819371,
+					"y": 3.6919322
+				},
+				"z": 0,
+				"angle": 2.4480422
+			},
+			{
+				"class": "MeshGraphics",
+				"meshBuilderDependency": null,
+				"meshData": {
+					"vertexDependency": "Snake Bod Mesh",
+					"vertices": [ -0.1, 0.5, -0.2, 0.4, -0.18, 0, 0.18, 0, 0.2, 0.4, 0.1, 0.5, -0.18, 0, -0.2, -0.4, -0.1, -0.5, 0.1, -0.5, 0.2, -0.4, 0.18, 0 ],
+					"indices": [ 0, 1, 2, 0, 2, 3, 0, 3, 5, 3, 4, 5, 6, 7, 8, 6, 8, 9, 6, 9, 11, 9, 10, 11 ],
+					"colors": [ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ],
+					"textureCoords": [ 0.69727, 0, 0.64843, 0.0625, 0.66309, 0.25, 0.83105, 0.25, 0.84961, 0.0625, 0.80078, 0, 0.66309, 0.25, 0.64843, 0.4375, 0.69727, 0.5, 0.80078, 0.5, 0.84961, 0.4375, 0.83105, 0.25 ]
+				},
+				"xScale": 1,
+				"yScale": 1,
+				"textureName": "Snake.png"
+			}
+		],
+		"componentDependencies": []
+	},
+	{
+		"dependencies": [],
+		"prefabName": "",
+		"name": null,
+		"components": [
+			{
+				"class": "Physics",
+				"bodyBuilderDependency": "",
+				"bodyData": {
+					"bodyDef": {
+						"type": "DynamicBody",
+						"position": {
+							"x": 3.5807076,
+							"y": 2.3098292
+						},
+						"angle": -4.132159,
+						"linearVelocity": {
+							"x": 0,
+							"y": 0
+						},
+						"angularVelocity": 0,
+						"linearDamping": 2,
+						"angularDamping": 2,
+						"allowSleep": true,
+						"awake": true,
+						"fixedRotation": false,
+						"bullet": false,
+						"active": true,
+						"gravityScale": 1
+					},
+					"fixtures": [
+						{
+							"name": "PolygonFixture",
+							"friction": 0.3,
+							"restitution": 0.05,
+							"density": 0.1,
+							"isSensor": false,
+							"shape": {
+								"vertexDependency": "Snake Bod Top",
+								"vertices": [ -0.1, 0.5, -0.2, 0.4, -0.18, 0, 0.18, 0, 0.2, 0.4, 0.1, 0.5 ],
+								"shapeType": "Polygon",
+								"radius": 0.5,
+								"position": {
+									"x": 0,
+									"y": 0
+								}
+							}
+						},
+						{
+							"name": "PolygonFixture",
+							"friction": 0.3,
+							"restitution": 0.05,
+							"density": 0.1,
+							"isSensor": false,
+							"shape": {
+								"vertexDependency": "Snake Bod Bottom",
+								"vertices": [ -0.18, 0, -0.2, -0.4, -0.1, -0.5, 0.1, -0.5, 0.2, -0.4, 0.18, 0 ],
+								"shapeType": "Polygon",
+								"radius": 0.5,
+								"position": {
+									"x": 0,
+									"y": 0
+								}
+							}
+						}
+					]
+				}
+			},
+			{
+				"class": "Transform",
+				"position": {
+					"x": 3.5807076,
+					"y": 2.3098292
+				},
+				"z": 0,
+				"angle": -4.132159
+			},
+			{
+				"class": "MeshGraphics",
+				"meshBuilderDependency": null,
+				"meshData": {
+					"vertexDependency": "Snake Bod Mesh",
+					"vertices": [ -0.1, 0.5, -0.2, 0.4, -0.18, 0, 0.18, 0, 0.2, 0.4, 0.1, 0.5, -0.18, 0, -0.2, -0.4, -0.1, -0.5, 0.1, -0.5, 0.2, -0.4, 0.18, 0 ],
+					"indices": [ 0, 1, 2, 0, 2, 3, 0, 3, 5, 3, 4, 5, 6, 7, 8, 6, 8, 9, 6, 9, 11, 9, 10, 11 ],
+					"colors": [ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ],
+					"textureCoords": [ 0.69727, 0, 0.64843, 0.0625, 0.66309, 0.25, 0.83105, 0.25, 0.84961, 0.0625, 0.80078, 0, 0.66309, 0.25, 0.64843, 0.4375, 0.69727, 0.5, 0.80078, 0.5, 0.84961, 0.4375, 0.83105, 0.25 ]
+				},
+				"xScale": 1,
+				"yScale": 1,
+				"textureName": "Snake.png"
+			}
+		],
+		"componentDependencies": []
+	},
+	{
+		"dependencies": [],
+		"prefabName": "",
+		"name": null,
+		"components": [
+			{
+				"class": "Physics",
+				"bodyBuilderDependency": "",
+				"bodyData": {
+					"bodyDef": {
+						"type": "DynamicBody",
+						"position": {
+							"x": 4.30182,
+							"y": 2.8111408
+						},
+						"angle": -4.9337826,
+						"linearVelocity": {
+							"x": 0,
+							"y": 0
+						},
+						"angularVelocity": 0,
+						"linearDamping": 2,
+						"angularDamping": 2,
+						"allowSleep": true,
+						"awake": true,
+						"fixedRotation": false,
+						"bullet": false,
+						"active": true,
+						"gravityScale": 1
+					},
+					"fixtures": [
+						{
+							"name": "PolygonFixture",
+							"friction": 0.3,
+							"restitution": 0.05,
+							"density": 0.1,
+							"isSensor": false,
+							"shape": {
+								"vertexDependency": "Snake Bod Top",
+								"vertices": [ -0.1, 0.5, -0.2, 0.4, -0.18, 0, 0.18, 0, 0.2, 0.4, 0.1, 0.5 ],
+								"shapeType": "Polygon",
+								"radius": 0.5,
+								"position": {
+									"x": 0,
+									"y": 0
+								}
+							}
+						},
+						{
+							"name": "PolygonFixture",
+							"friction": 0.3,
+							"restitution": 0.05,
+							"density": 0.1,
+							"isSensor": false,
+							"shape": {
+								"vertexDependency": "Snake Bod Bottom",
+								"vertices": [ -0.18, 0, -0.2, -0.4, -0.1, -0.5, 0.1, -0.5, 0.2, -0.4, 0.18, 0 ],
+								"shapeType": "Polygon",
+								"radius": 0.5,
+								"position": {
+									"x": 0,
+									"y": 0
+								}
+							}
+						}
+					]
+				}
+			},
+			{
+				"class": "Transform",
+				"position": {
+					"x": 4.30182,
+					"y": 2.8111408
+				},
+				"z": 0,
+				"angle": -4.9337826
+			},
+			{
+				"class": "MeshGraphics",
+				"meshBuilderDependency": null,
+				"meshData": {
+					"vertexDependency": "Snake Bod Mesh",
+					"vertices": [ -0.1, 0.5, -0.2, 0.4, -0.18, 0, 0.18, 0, 0.2, 0.4, 0.1, 0.5, -0.18, 0, -0.2, -0.4, -0.1, -0.5, 0.1, -0.5, 0.2, -0.4, 0.18, 0 ],
+					"indices": [ 0, 1, 2, 0, 2, 3, 0, 3, 5, 3, 4, 5, 6, 7, 8, 6, 8, 9, 6, 9, 11, 9, 10, 11 ],
+					"colors": [ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ],
+					"textureCoords": [ 0.69727, 0, 0.64843, 0.0625, 0.66309, 0.25, 0.83105, 0.25, 0.84961, 0.0625, 0.80078, 0, 0.66309, 0.25, 0.64843, 0.4375, 0.69727, 0.5, 0.80078, 0.5, 0.84961, 0.4375, 0.83105, 0.25 ]
+				},
+				"xScale": 1,
+				"yScale": 1,
+				"textureName": "Snake.png"
+			}
+		],
+		"componentDependencies": []
+	},
+	{
+		"dependencies": [],
+		"prefabName": "",
+		"name": null,
+		"components": [
+			{
+				"class": "Physics",
+				"bodyBuilderDependency": "",
+				"bodyData": {
+					"bodyDef": {
+						"type": "DynamicBody",
+						"position": {
+							"x": -2.020297,
+							"y": 0.40173775
+						},
+						"angle": -2.8236635,
+						"linearVelocity": {
+							"x": 0,
+							"y": 0
+						},
+						"angularVelocity": 0,
+						"linearDamping": 2,
+						"angularDamping": 2,
+						"allowSleep": true,
+						"awake": true,
+						"fixedRotation": false,
+						"bullet": false,
+						"active": true,
+						"gravityScale": 1
+					},
+					"fixtures": [
+						{
+							"name": "PolygonFixture",
+							"friction": 0.3,
+							"restitution": 0.05,
+							"density": 0.1,
+							"isSensor": false,
+							"shape": {
+								"vertexDependency": "Snake Bod Top",
+								"vertices": [ -0.1, 0.5, -0.2, 0.4, -0.18, 0, 0.18, 0, 0.2, 0.4, 0.1, 0.5 ],
+								"shapeType": "Polygon",
+								"radius": 0.5,
+								"position": {
+									"x": 0,
+									"y": 0
+								}
+							}
+						},
+						{
+							"name": "PolygonFixture",
+							"friction": 0.3,
+							"restitution": 0.05,
+							"density": 0.1,
+							"isSensor": false,
+							"shape": {
+								"vertexDependency": "Snake Bod Bottom",
+								"vertices": [ -0.18, 0, -0.2, -0.4, -0.1, -0.5, 0.1, -0.5, 0.2, -0.4, 0.18, 0 ],
+								"shapeType": "Polygon",
+								"radius": 0.5,
+								"position": {
+									"x": 0,
+									"y": 0
+								}
+							}
+						}
+					]
+				}
+			},
+			{
+				"class": "Transform",
+				"position": {
+					"x": -2.020297,
+					"y": 0.40173775
+				},
+				"z": 0,
+				"angle": -2.8236635
+			},
+			{
+				"class": "MeshGraphics",
+				"meshBuilderDependency": null,
+				"meshData": {
+					"vertexDependency": "Snake Bod Mesh",
+					"vertices": [ -0.1, 0.5, -0.2, 0.4, -0.18, 0, 0.18, 0, 0.2, 0.4, 0.1, 0.5, -0.18, 0, -0.2, -0.4, -0.1, -0.5, 0.1, -0.5, 0.2, -0.4, 0.18, 0 ],
+					"indices": [ 0, 1, 2, 0, 2, 3, 0, 3, 5, 3, 4, 5, 6, 7, 8, 6, 8, 9, 6, 9, 11, 9, 10, 11 ],
+					"colors": [ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ],
+					"textureCoords": [ 0.69727, 0, 0.64843, 0.0625, 0.66309, 0.25, 0.83105, 0.25, 0.84961, 0.0625, 0.80078, 0, 0.66309, 0.25, 0.64843, 0.4375, 0.69727, 0.5, 0.80078, 0.5, 0.84961, 0.4375, 0.83105, 0.25 ]
+				},
+				"xScale": 1,
+				"yScale": 1,
+				"textureName": "Snake.png"
+			}
+		],
+		"componentDependencies": []
+	},
+	{
+		"dependencies": [],
+		"prefabName": "",
+		"name": null,
+		"components": [
+			{
+				"class": "Physics",
+				"bodyBuilderDependency": "",
+				"bodyData": {
+					"bodyDef": {
+						"type": "DynamicBody",
+						"position": {
+							"x": 4.503773,
+							"y": 0.74503267
+						},
+						"angle": 13.225344,
+						"linearVelocity": {
+							"x": 0,
+							"y": 0
+						},
+						"angularVelocity": 0,
+						"linearDamping": 2,
+						"angularDamping": 2,
+						"allowSleep": true,
+						"awake": true,
+						"fixedRotation": false,
+						"bullet": false,
+						"active": true,
+						"gravityScale": 1
+					},
+					"fixtures": [
+						{
+							"name": "PolygonFixture",
+							"friction": 0.8,
+							"restitution": 0.05,
+							"density": 0.1,
+							"isSensor": false,
+							"shape": {
+								"vertexDependency": "Snake Rattler Top",
+								"vertices": [ -0.1, 0.5, -0.2, 0.4, -0.18, 0, 0.18, 0, 0.2, 0.4, 0.1, 0.5 ],
+								"shapeType": "Polygon",
+								"radius": 0.5,
+								"position": {
+									"x": 0,
+									"y": 0
+								}
+							}
+						},
+						{
+							"name": "PolygonFixture",
+							"friction": 0.8,
+							"restitution": 0.05,
+							"density": 0.1,
+							"isSensor": false,
+							"shape": {
+								"vertexDependency": "Snake Rattler Bottom",
+								"vertices": [ -0.18, 0, -0.14, -0.4, 0, 0.5, 0.14, -0.4, 0.18, 0 ],
+								"shapeType": "Polygon",
+								"radius": 0.5,
+								"position": {
+									"x": 0,
+									"y": 0
+								}
+							}
+						}
+					]
+				}
+			},
+			{
+				"class": "Transform",
+				"position": {
+					"x": 4.503773,
+					"y": 0.74503267
+				},
+				"z": 0,
+				"angle": 13.225344
+			},
+			{
+				"class": "MeshGraphics",
+				"meshBuilderDependency": null,
+				"meshData": {
+					"vertexDependency": "Snake Rattler Mesh",
+					"vertices": [ -0.1, 0.5, -0.2, 0.4, -0.18, 0, 0.18, 0, 0.2, 0.4, 0.1, 0.5, -0.18, 0, -0.14, -0.4, 0, -0.5, 0.14, -0.4, 0.18, 0 ],
+					"indices": [ 0, 1, 2, 0, 2, 3, 0, 3, 5, 3, 4, 5, 6, 7, 8, 6, 8, 10, 8, 9, 10 ],
+					"colors": [ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ],
+					"textureCoords": [ 0.69727, 0.5, 0.64843, 0.5625, 0.66309, 0.75, 0.83105, 0.75, 0.84961, 0.5625, 0.80078, 0.5, 0.66309, 0.75, 0.7041, 0.9707, 0.74805, 0.995, 0.79199, 0.9707, 0.83105, 0.75 ]
+				},
+				"xScale": 1,
+				"yScale": 1,
+				"textureName": "Snake.png"
+			}
+		],
+		"componentDependencies": []
+	},
+	{
+		"dependencies": [],
+		"prefabName": "",
+		"name": null,
+		"components": [
+			{
+				"class": "Physics",
+				"bodyBuilderDependency": "",
+				"bodyData": {
+					"bodyDef": {
+						"type": "DynamicBody",
+						"position": {
+							"x": 1.6314627,
+							"y": 0.7978085
+						},
+						"angle": -0.5056171,
+						"linearVelocity": {
+							"x": 0,
+							"y": 0
+						},
+						"angularVelocity": 0,
+						"linearDamping": 2,
+						"angularDamping": 2,
+						"allowSleep": true,
+						"awake": true,
+						"fixedRotation": false,
+						"bullet": false,
+						"active": true,
+						"gravityScale": 1
+					},
+					"fixtures": [
+						{
+							"name": "CircleFixture",
+							"friction": 0.8,
+							"restitution": 0.05,
+							"density": 1.2,
+							"isSensor": false,
+							"shape": {
+								"vertexDependency": "",
+								"vertices": null,
+								"shapeType": "Circle",
+								"radius": 0.3,
+								"position": {
+									"x": 0,
+									"y": 0
+								}
+							}
+						}
+					]
+				}
+			},
+			{
+				"class": "Transform",
+				"position": {
+					"x": 1.6314627,
+					"y": 0.7978085
+				},
+				"z": 0,
+				"angle": -0.5056171
+			},
+			{
+				"class": "SpriteGraphics",
+				"spriteBuilderDependency": "",
+				"spriteData": {
+					"name": null,
+					"width": 0.6,
+					"height": 0.6,
+					"origin": {
+						"x": 0.3,
+						"y": 0.3
+					},
+					"texture": "barrel.png",
+					"color": {
+						"r": 0.7,
+						"g": 0.7,
+						"b": 0.7,
+						"a": 1
+					}
+				}
+			}
+		],
+		"componentDependencies": []
+	},
+	{
+		"dependencies": [],
+		"prefabName": "",
+		"name": null,
+		"components": [
+			{
+				"class": "Physics",
+				"bodyBuilderDependency": "",
+				"bodyData": {
+					"bodyDef": {
+						"type": "DynamicBody",
+						"position": {
+							"x": 1.919799,
+							"y": 0.0077448026
+						},
+						"angle": 0.8906131,
+						"linearVelocity": {
+							"x": 0,
+							"y": 0
+						},
+						"angularVelocity": 0,
+						"linearDamping": 2,
+						"angularDamping": 2,
+						"allowSleep": true,
+						"awake": true,
+						"fixedRotation": false,
+						"bullet": false,
+						"active": true,
+						"gravityScale": 1
+					},
+					"fixtures": [
+						{
+							"name": "CircleFixture",
+							"friction": 0.8,
+							"restitution": 0.05,
+							"density": 0.5,
+							"isSensor": false,
+							"shape": {
+								"vertexDependency": "",
+								"vertices": [],
+								"shapeType": "Circle",
+								"radius": 0.5,
+								"position": {
+									"x": 0,
+									"y": 0
+								}
+							}
+						}
+					]
+				}
+			},
+			{
+				"class": "Transform",
+				"position": {
+					"x": 1.919799,
+					"y": 0.0077448026
+				},
+				"z": 0,
+				"angle": 0.8906131
+			},
+			{
+				"class": "SpriteGraphics",
+				"spriteBuilderDependency": "",
+				"spriteData": {
+					"name": null,
+					"width": 1,
+					"height": 1,
+					"origin": {
+						"x": 0.5,
+						"y": 0.5
+					},
+					"texture": "barrel.png",
+					"color": {
+						"r": 0.6,
+						"g": 0.6,
+						"b": 0.6,
+						"a": 1
+					}
+				}
+			}
+		],
+		"componentDependencies": []
+	}
+]
+}

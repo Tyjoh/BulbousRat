@@ -1,0 +1,13 @@
+
+Component Creation Best Practices:
+    1. All data to be serialized should be primitive types or POJO's that are serialization friendly
+    2. Data that requires complex references or depend on Physics/Graphics engines should be transient
+    3. Transient types should be initialized + created in the copyAndBuild method.
+    4. Primitive types may be publicly accessible
+    5. POJO's should use getters/setters to prevent or signal that it a field is being set to null
+    6. All BuildableComponents need to implement the Validatable interface.
+    7. Components should be checked for validity before calling copyAndBuild method.
+    8. If a non primitive type field is made public it must be final.
+    9. POJO's that are used as fields for a component should follow all of the above practices
+
+Systems Best Practices:

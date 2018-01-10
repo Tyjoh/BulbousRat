@@ -1,0 +1,116 @@
+{
+  "requiredComponents": [
+    "Transform"
+  ],
+  "prefabBuilder": {
+    "name": "GreasyWall",
+    "components": [
+      {
+        "class": "Physics",
+        "bodyBuilderDependency": "WallPhysics"
+      },
+      {
+        "class": "Transform",
+        "position": {
+          "x": 0,
+          "y": 0
+        },
+        "z": 0,
+        "angle": 0
+      }
+    ],
+
+    "componentDependencies": [
+      "WallGfx"
+    ]
+
+  },
+
+  "dependencies": [
+    {
+      "dependencyName": "WallGfx",
+      "object": {
+        "class": "SpriteGraphics",
+        "spriteBuilderDependency": "WallSprite"
+      }
+    },
+
+
+    {
+      "dependencyName": "WallSprite",
+      "object":
+      {
+        "class": "SpriteData",
+        "name": null,
+        "width": 2,
+        "height": 2,
+        "origin": {
+          "x": 1,
+          "y": 1
+        },
+        "texture": "default.png",
+        "color": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        }
+      }
+    },
+
+
+    {
+      "dependencyName": "WallPhysics",
+      "object":
+      {
+        "class": "BodyData",
+        "bodyDef": {
+          "type": "StaticBody",
+          "position": {
+            "x": 0,
+            "y": 0
+          },
+          "angle": 0,
+          "linearVelocity": {
+            "x": 0,
+            "y": 0
+          },
+          "angularVelocity": 0,
+          "linearDamping": 0,
+          "angularDamping": 0,
+          "allowSleep": true,
+          "awake": true,
+          "fixedRotation": false,
+          "bullet": false,
+          "active": true,
+          "gravityScale": 1
+        },
+        "fixtures": [
+          {
+            "name": "BoxFixture",
+            "friction": 0.05,
+            "restitution": 0.05,
+            "density": 2,
+            "isSensor": false,
+            "shape": {
+              "vertices": [
+                  -1, 1,
+                  -1, -1,
+                  1, -1,
+                  1, 1
+              ],
+              "shapeType": "Polygon",
+              "radius": 1,
+              "position": {
+                "x": 0,
+                "y": 0
+              }
+            }
+          }
+        ]
+      }
+    }
+
+
+  ]
+}
